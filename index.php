@@ -2,7 +2,7 @@
 // on se creer une connexion à notre base//
 $link = new PDO ('mysql:host=localhost;dbname=spacejob', 'root', '',array (PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 // On se connecte à la base de données 
-$base= mysql_connect($hote= 'localhost:8889', $login, $pass); 
+$base= mysql_connect($hote, $login, $pass); 
  
 // On selectionne la base de données souhaitée 
 mysql_select_db($base='spacejob');
@@ -32,8 +32,8 @@ mysql_select_db($base='spacejob');
 <label for="profession"> Choisisez votre profession</label>
 
 <select name="profession">
-<option value="secondaire">Etudiant(e) dans le secondaire"</option>
-<option value="superieur">Etudiant(e) dans le superieur"</option>
+<option value="secondaire">Etudiant(e) dans le secondaire</option>
+<option value="superieur">Etudiant(e) dans le superieur</option>
 <option value="salarié">Salarié"</option>
 <option value="non-salarié">Non-salarié"</option>
 </select>
