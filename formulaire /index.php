@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo_web.png" />
   <title>FORMULAIRE</title>
 </head>
 
@@ -39,11 +40,10 @@
 </html>
 
 <?php
-//je me connecet depuis la base//
-//include('lie/connect.php');
-ini_set('display_errors', 'on');
-$bdd = new PDO('mysql:host=localhost;dbname=spacejob', 'root', 'root', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
 // je m'informe si il y'a une erreur
+ini_set('display_errors', 'on');
+//je me connecet depuis la base//
+include('lie/connect.php');
 
 
 // je met une condition//
@@ -54,3 +54,4 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
   //j'execute la requete//
   $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
 }
+?>
