@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    background-image: url('icon_Bg.jpg');
+
+}
+
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+    border: 0px;
+}
+
+.contact-form {
+
+    max-width: 550px;
+    margin: 0 auto;
+    border: 0px;
+    background: rgba(29, 29, 29, 0);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 0 10px;
+}
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-field,
+.msg {
+    width: 48%;
+}
+
+.select {
+    width: 48%;
+}
+
+input:focus {
+    transform: scale(1.1);
+
+}
+
+.input {
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #fff;
+}
+
+.msg {
+
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #fff;
+}
+
+.input-field .input .msg textarea {
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+option {
+    color: #c5ecfd;
+    border: 0;
+    background-color: transparent;
+
+    border-bottom: 2px solid #fff;
+}
+
+.msg textarea {
+    height: 212px;
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #c5ecfd;
+
+}
