@@ -1,59 +1,50 @@
-html{
-scroll-behavior: smooth;
-}
-
-body {
+body{
     margin: 0px;
 }
 
 /*fond étoilé*/
-.accueil {
+.accueil{
     width: 100vw;
     height: 100vh;
-    background-image: url('images/fond_satin.png');
-    background-attachment: fixed;
-    background-position: cover;
+    background-image: url('fond_satin.png');
     margin: 0px;
     padding: 0px;
 }
-
-.second {
-    position: relative;
-    top: 100vh;
+.second{
+    position: absolute; top: 100vh;
 }
 
-a {
+a{
     color: white;
+    text-decoration: none;
+}
+p{
+color: white;
+padding: 0px;
 }
 
-p {
-    color: white;
-    padding: 0px;
-}
-
-h1 {
-    color: white;
-    padding: 0px;
-    margin: 0px;
+h1{
+color: white;
+padding: 0px;
+margin: 0px;
 }
 
 /*soleils*/
-.sun1 {
+.sun1{
     height: 15%;
-    position: absolute;
+    position: fixed;
     top: 60%;
     left: 15%;
 }
-
-.sun2 {
+.sun2{
     height: 20%;
-    position: absolute;
+    position: fixed;
     top: 25%;
     left: 70%;
 }
 
 /*bienvenue sure*/
-.title {
+.title{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vw;
     position: absolute;
@@ -62,7 +53,7 @@ h1 {
 }
 
 /*décollage & barre*/
-.boutton {
+.boutton{
     font-family: 'Montserrat', sans-serif;
     font-size: 1vw;
     color: white;
@@ -71,8 +62,7 @@ h1 {
     top: 59%;
     left: 67%;
 }
-
-.line {
+.line{
     background-color: white;
     height: 0.3%;
     width: 25%;
@@ -82,27 +72,45 @@ h1 {
 }
 
 /*space Jobs*/
-.logo_titre {
+.logo_titre{
     width: 40%;
     position: absolute;
     top: 42%;
     left: 30%;
 }
 
-/*menu lattéral*/
-.logo {
-    width: 60%;
+table{
+    color: #E94E1B;
+    
+}
+td{
+    font-size: 0.75vw;
+    font-family: 'Roboto', sans-serif;
+}
+th{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color:#E94E1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.couleur{
+    color:#E94E1B;
 }
 
-.nav {
-
+/*menu lattéral*/
+.logo{
+    width: 60%;
+}
+.nav{
+    
     margin: 0px;
     padding-left: 5%;
     padding-top: 30%;
     color: white;
 }
-
-.menu {
+.menu{
     margin: 0px;
     list-style-type: none;
     position: absolute;
@@ -110,11 +118,121 @@ h1 {
     top: 0%;
 }
 
+.cockpit{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+.croix{
+    height: 2%;
+}
 
+a#metiers{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 59%;
+    left: 21%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+a#propos{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 44%;
+    left: 33.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+a#twitter{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 63.5%;
+    left: 33.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+a#neuf{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 59%;
+    left: 72%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+a#identité{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 45%;
+    left: 57.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+a#insta{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 64.5%;
+    left: 58%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
 
+/*
+ICI LE COEUR DU SUJET
+*/
+.definition {
+/* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
+  /*position: absolute;*/
+  border: 0;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1;
+  clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  text-align: center;
+}
+.definition:target {
+/* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
+  position: absolute;
+  top: 125%; 
+  left: 38%;
+  height: 65%;
+  width: 25%;
+  padding: initial;
+  clip: initial;
+  background-color: #150905;
+  border: grey solid 3px;
+  z-index: 1;
+  color: black;
+  display: block;
+}
 
-
-
+.definition:target ~ small {
+    /* cette information est éjectée du flux car non indispensable ni en accessibilité ni en SEO ou autre (où alors un truc auquel je n'ai pas pensé). */
+      display: none;
+    }
+/*
+  FIN DU COEUR DU SUJET
+*/
 
 
 
@@ -122,44 +240,40 @@ h1 {
 /*animation flotement*/
 @-webkit-keyframes float {
     0% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
     }
-
     50% {
-        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-        -webkit-transform: translatey(-20px);
-        transform: translatey(-20px);
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
     }
-
     100% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
     }
-}
-
-@keyframes float {
+  }
+  
+  @keyframes float {
     0% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
     }
-
     50% {
-        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-        -webkit-transform: translatey(-10px);
-        transform: translatey(-10px);
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(-10px);
+              transform: translatey(-10px);
     }
-
     100% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        -webkit-transform: translatey(0px);
-        transform: translatey(0px);
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
     }
-}
+  }
 
-.float {
+  .float{
     animation: float 3s ease-in-out infinite;
-}
+  }
