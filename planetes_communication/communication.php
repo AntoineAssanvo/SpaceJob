@@ -15,25 +15,25 @@
     // je m'informe si il y'a une erreur
     ini_set('display_errors', 'on');
     //je me connecet depuis la base//
-    $bdd = new PDO('mysql:host=localhost;dbname=spacejob', 'root', 'root', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+    include('formulaire /lie/connect.php');
+    //$bdd = new PDO('mysql:host=localhost;dbname=spacejob', 'root', 'root', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
+    $sql = "SELECT * FROM  spacejob_univers WHERE id_univ ='2';
+     $req = $bdd->prepare($sql);
 
-    $sql = "SELECT summarize FROM spacejob_planete WHERE plan_name='chef de projet web'";
+     $req->execute();
 
-    $req = $bdd->prepare($sql);
+     echo '<section>'; 
 
-    $req->execute();
+while ($data = $req->fetch()) {
+    echo ' <h1 class ="main_title" >' .$data['name']. '</h1>';
+}
 
-    echo ('<p>');
+$req = null;
+echo '</section>';
 
-    while ($data = $req->fetch()) {
-        echo ' <p class= "main_text" >' . $data['summarize'] . '</p>';
-    }
+?>
 
-    $req = null;
-    echo '</p>';
-
-    ?>
-
+    
 
 
 </body>
