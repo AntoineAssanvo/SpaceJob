@@ -6,7 +6,7 @@ body{
 .accueil{
     width: 100vw;
     height: 100vh;
-    background-image: url('fond_satin.png');
+    background-image: url('images/fond_satin.png');
     margin: 0px;
     padding: 0px;
 }
