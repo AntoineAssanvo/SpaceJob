@@ -10,85 +10,88 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.second{
-    position: absolute; top: 100vh;
-}
 
-a{
-    color: white;
-    text-decoration: none;
+.planete1{
+    transform: rotate(110deg);
+    position: absolute; top: 20%; left: 10%;
+    height: 40%;
+    z-index: 2;
 }
-p{
-color: white;
-padding: 0px;
+.web{
+    width: 15%;
+    position: absolute; top: 20%; left: 25%;
+    z-index: 1;
 }
+.Marketing{
 
-h1{
-color: white;
-padding: 0px;
-margin: 0px;
 }
-
-/*soleils*/
-.sun1{
-    height: 15%;
-    position: absolute;
-    top: 35%;
-    left: 25%;
+.left{
+    position: absolute; top: 20%; left: 10%;
+    height: 40%;
+    width: 20%;
     z-index: 12;
 }
-.sys_dev{
-    width: 20%;
-    position: absolute; top: 30%; left: 30%;
+.saturne{
+    height: 20%;
+    position: absolute; top: 10%; right: 10%;
     z-index: 11;
+}
+.graphisme{
+    width: 20%;
+    position: absolute; top: 5%; right: 2%;
+    z-index: 1;
+}
+.reseaux{
+    width: 20%;
+    position: absolute; top: 39%; right: 20%;
+    z-index: 1;
+}
+.planete3{
+    height: 9%;
+    position: absolute; top: 8%; left: 38%;
+    z-index: 11;
+}
+.Communication{
+    width: 20%;
+    position: absolute; top: 5%; left: 41%;
+    z-index: 1;
+}
+.dev{
+    width: 20%;
+    position: absolute; top: 8%; right: 18%;
+    z-index: 11;
+}
+.planete2{
+    height: 70%;
+    position: absolute; top: 40%; left: 70%;
+    z-index: 2;
+}
+.Big{
+    position: absolute; bottom: 0%; right: 0%;
+    height: 60%;
+    width: 22%;
+    z-index: 12;
+}
+.big2{
+    position: absolute; bottom: 55%; right: 20%;
+    height: 6%;
+    width: 22%;
+    z-index: 12;
 }
 .sun2{
-    height: 20%;
-    position: absolute;
-    top: 25%;
-    left: 65%;
-    z-index: 12;
-}
-.sys_com{
-    width: 20%;
-    position: absolute; top: 20%; left: 72%;
-    z-index: 11;
+    height: 15%;
+    position: absolute; top: 30%; left: 48%;
+    
 }
 
-/*bienvenue sure*/
-.title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vw;
-    position: absolute;
-    top: 35%;
-    left: 30%;
-}
-
-/*décollage & barre*/
-.boutton{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-    color: white;
+.retour{
+    color: #E94E1B;
     text-decoration: none;
-    position: absolute;
-    top: 59%;
-    left: 67%;
-}
-.line{
-    background-color: white;
-    height: 0.1%;
-    width: 25%;
-    position: absolute;
-    top: 60%;
-    left: 41%;
-}
-
-/*space Jobs*/
-.logo_titre{
-    width: 40%;
-    position: absolute;
-    top: 42%;
-    left: 30%;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+    float: left;
+    position: absolute; top: 2%; left: 2%;
 }
 
 table{
@@ -115,54 +118,12 @@ h2{
     color:#E94E1B;
 }
 
-/*menu lattéral*/
-.logo{
-    width: 110%;
-}
-.nav{
-    margin-top: 20%;
-    padding-top: 20%;
-    margin: 0px;
-    padding-top: 60%;
-    color: white;
-}
-.facebook{
-    width: 80%;
-}
-.twitter{
-    width: 80%;
-}
-.insta{
-    width: 80%;
-}
-.CV{
-    width: 80%;
-}
-.menu{
-    margin-top: 2%;
-    list-style-type: none;
-    position: absolute;
-    right: 95%;
-    top: 0%;
-}
-
-
-
-
-
-
-
-
 .cockpit{
     position: absolute; bottom: 0px;
     width: 100vw;
     height: 75vh;
     z-index: 10;
 }
-
-
-
-
 
 a#metiers{
     float: left;
@@ -217,7 +178,7 @@ a#identité{
     margin: 0px;
     position: absolute;
     top: 57%;
-    left: 57.5%;
+    left: 59%;
     color: #E94E1B;
     text-decoration: none;
     font-size: 1.8vw;
@@ -237,50 +198,57 @@ a#insta{
     z-index: 11;
 }
 
+
 /*
 ICI LE COEUR DU SUJET
 */
 .definition {
-/* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
-  /*position: absolute;*/
-  border: 0;
-  height: 1px;
-  width: 1px;
-  padding: 0;
-  overflow: hidden;
-  z-index: 12;
-  clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  text-align: center;
-}
-.definition:target {
-/* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
-  position: absolute;
-  top: 125%; 
-  left: 38%;
-  height: 65%;
-  width: 25%;
-  padding: initial;
-  clip: initial;
-  background-color: #150905;
-  border: grey solid 3px;
-  z-index: 12;
-  color: black;
-  display: block;
-}
-
-.definition:target ~ small {
-    /* cette information est éjectée du flux car non indispensable ni en accessibilité ni en SEO ou autre (où alors un truc auquel je n'ai pas pensé). */
-      display: none;
+    /* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
+      /*position: absolute;*/
+      border: 0;
+      height: 1px;
+      width: 1px;
+      padding: 0;
+      overflow: hidden;
+      z-index: 12;
+      clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+      clip: rect(1px, 1px, 1px, 1px);
+      text-align: center;
     }
-/*
-  FIN DU COEUR DU SUJET
-*/
+    .definition:target {
+    /* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
+      position: absolute;
+      top: 25%; 
+      left: 38%;
+      height: 65%;
+      width: 25%;
+      padding: initial;
+      clip: initial;
+      background-color: #150905;
+      border: grey solid 3px;
+      z-index: 12;
+      color: black;
+      display: block;
+    }
+    
+    .definition:target ~ small {
+        /* cette information est éjectée du flux car non indispensable ni en accessibilité ni en SEO ou autre (où alors un truc auquel je n'ai pas pensé). */
+          display: none;
+        }
 
 
 
 
-/*animation flotement*/
+
+
+
+
+
+
+
+
+
+        /*animation flotement*/
 @-webkit-keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
