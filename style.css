@@ -341,3 +341,7 @@ background: linear-gradient(0deg, rgba(255,247,238,1) 0%, rgba(227,219,210,1) 43
 .links i {
     margin-right: 5px;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
