@@ -2,6 +2,10 @@ body{
     margin: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*fond étoilé*/
 .accueil{
     width: 100vw;
@@ -102,6 +106,9 @@ td{
 }
 .definx{
     font-size: 1vw;
+}
+.linke{
+    color: #E94E1B;
 }
 th{
     font-family: 'Roboto', sans-serif;
@@ -320,3 +327,7 @@ ICI LE COEUR DU SUJET
   .float{
     animation: float 3s ease-in-out infinite;
   }
+
+  ::-webkit-scrollbar{
+    display: none;
+}

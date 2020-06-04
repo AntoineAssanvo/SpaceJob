@@ -11,6 +11,8 @@ body{
     padding: 0px;
 }
 
+a{text-decoration: none;}
+
 .planete1{
     transform: rotate(110deg);
     position: absolute; top: 20%; left: 10%;
@@ -105,6 +107,9 @@ td{
 }
 .definx{
     font-size: 1vw;
+}
+.linke{
+  color: #E94E1B;
 }
 th{
     font-family: 'Roboto', sans-serif;
@@ -423,4 +428,8 @@ ICI LE COEUR DU SUJET
 .scale-up-ver-center {
 	-webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
