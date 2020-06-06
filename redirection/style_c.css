@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(27, 4, 46);
+    background: url("../images/fond_satin.png");
+
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+body h1 {
+    margin: auto;
+}
+
+body a {
+    color: #E94E1B;
+    font-size: 1.8vw;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px;
+    background: transparent;
+}
