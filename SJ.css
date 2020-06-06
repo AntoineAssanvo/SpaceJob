@@ -2,11 +2,108 @@ body{
     margin: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*formulaire*/
+.wrapper {
+    width: 100%;
+    border: 0px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 0px;
+    background: rgba(29, 29, 29, 0);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 0 10px;
+}
+
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0%;
+}
+
+.input-field,
+.msg {
+    width: 38%;
+}
+
+.select {
+    width: 38%;
+}
+
+input:focus {
+    transform: scale(1.1);
+
+}
+
+.input {
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 80%;
+    padding: 10px;
+    color: #E94E1B;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid #E94E1B;
+}
+
+.msg {
+
+    margin-bottom: 10px;
+    border: 0;
+    background-color: transparent;
+    width: 50%;
+    padding: 10px;
+    color: #E94E1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #E94E1B;
+}
+
+.input-field .input .msg textarea {
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #c5ecfd;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+option {
+    color: #c5ecfd;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+}
+
+.msg textarea {
+    height: 212px;
+    margin: 10px 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    color: #E94E1B;
+
+}
+
 /*fond étoilé*/
 .accueil{
     width: 100vw;
     height: 100vh;
-    background-image: url('fond_satin.png');
+    background-image: url('images/fond_satin.png');
     margin: 0px;
     padding: 0px;
 }
@@ -29,18 +126,40 @@ padding: 0px;
 margin: 0px;
 }
 
+.croix{
+    width: 40%;
+
+}
+.divcroix{
+    position: absolute; left: 0.1%; top: 2%;
+}
+.position{
+    padding: 20px;
+}
 /*soleils*/
 .sun1{
     height: 15%;
-    position: fixed;
-    top: 60%;
-    left: 15%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 12;
+}
+.sys_dev{
+    width: 20%;
+    position: absolute; top: 30%; left: 30%;
+    z-index: 11;
 }
 .sun2{
     height: 20%;
-    position: fixed;
+    position: absolute;
     top: 25%;
-    left: 70%;
+    left: 65%;
+    z-index: 12;
+}
+.sys_com{
+    width: 20%;
+    position: absolute; top: 20%; left: 72%;
+    z-index: 11;
 }
 
 /*bienvenue sure*/
@@ -64,7 +183,7 @@ margin: 0px;
 }
 .line{
     background-color: white;
-    height: 0.3%;
+    height: 0.1%;
     width: 25%;
     position: absolute;
     top: 60%;
@@ -81,11 +200,18 @@ margin: 0px;
 
 table{
     color: #E94E1B;
-    
+    margin-left: 35px;
 }
 td{
-    font-size: 0.75vw;
+    font-size: 0.8vw;
     font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+.definx{
+    font-size: 1vw;
+}
+.linke{
+    color: #E94E1B;
 }
 th{
     font-family: 'Roboto', sans-serif;
@@ -101,97 +227,124 @@ h2{
 
 /*menu lattéral*/
 .logo{
-    width: 60%;
+    width: 110%;
 }
 .nav{
-    
+    margin-top: 20%;
+    padding-top: 20%;
     margin: 0px;
-    padding-left: 5%;
-    padding-top: 30%;
+    padding-top: 60%;
     color: white;
 }
+.facebook{
+    width: 80%;
+}
+.twitter{
+    width: 80%;
+}
+.insta{
+    width: 80%;
+}
+.CV{
+    width: 80%;
+}
 .menu{
-    margin: 0px;
+    margin-top: 2%;
     list-style-type: none;
     position: absolute;
     right: 95%;
     top: 0%;
 }
 
+
+
+
+
+
+
+
 .cockpit{
+    position: absolute; bottom: 0px;
     width: 100vw;
-    height: 100vh;
-    z-index: 1;
+    height: 75vh;
+    z-index: 10;
 }
-.croix{
-    height: 2%;
-}
+
+
+
+
 
 a#metiers{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 59%;
+    top: 67.5%;
     left: 21%;
     color: #E94E1B;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 a#propos{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 44%;
+    top: 56.5%;
     left: 33.5%;
     color: #E94E1B;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 a#twitter{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 63.5%;
+    top: 71.5%;
     left: 33.5%;
     color: #E94E1B;
     text-decoration: none;
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 a#neuf{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 59%;
+    top: 67.5%;
     left: 72%;
     color: #E94E1B;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 a#identité{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 45%;
+    top: 57%;
     left: 57.5%;
     color: #E94E1B;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.8vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 a#insta{
     float: left;
     margin: 0px;
     position: absolute;
-    top: 64.5%;
+    top: 72.5%;
     left: 58%;
     color: #E94E1B;
     text-decoration: none;
     font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
+    z-index: 11;
 }
 
 /*
@@ -205,7 +358,7 @@ ICI LE COEUR DU SUJET
   width: 1px;
   padding: 0;
   overflow: hidden;
-  z-index: 1;
+  z-index: 12;
   clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
   clip: rect(1px, 1px, 1px, 1px);
   text-align: center;
@@ -221,7 +374,7 @@ ICI LE COEUR DU SUJET
   clip: initial;
   background-color: #150905;
   border: grey solid 3px;
-  z-index: 1;
+  z-index: 12;
   color: black;
   display: block;
 }
@@ -277,3 +430,7 @@ ICI LE COEUR DU SUJET
   .float{
     animation: float 3s ease-in-out infinite;
   }
+
+  ::-webkit-scrollbar{
+    display: none;
+}
