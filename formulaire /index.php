@@ -43,7 +43,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('lie/connect.php');
+include('./lie/connect.php');
 
 
 // je met une condition//
