@@ -2,6 +2,97 @@ body{
     margin: 0px;
 }
 
+/*formulaire*/
+.wrapper {
+  width: 100%;
+  border: 0px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  border: 0px;
+  background: rgba(29, 29, 29, 0);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow: 0 0 0 10px;
+}
+
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+}
+
+.input-field,
+.msg {
+  width: 38%;
+}
+
+.select {
+  width: 38%;
+}
+
+input:focus {
+  transform: scale(1.1);
+
+}
+
+.input {
+  margin-bottom: 10px;
+  border: 0;
+  background-color: transparent;
+  width: 80%;
+  padding: 10px;
+  color: #E94E1B;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 2px solid #E94E1B;
+}
+
+.msg {
+
+  margin-bottom: 10px;
+  border: 0;
+  background-color: transparent;
+  width: 50%;
+  padding: 10px;
+  color: #E94E1B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #E94E1B;
+}
+
+.input-field .input .msg textarea {
+  margin: 10px 0;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  color: #c5ecfd;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+option {
+  color: #c5ecfd;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+}
+
+.msg textarea {
+  height: 212px;
+  margin: 10px 0;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+  color: #E94E1B;
+
+}
 /*fond étoilé*/
 .accueil{
     width: 100vw;
@@ -64,8 +155,8 @@ a{text-decoration: none;}
     z-index: 11;
 }
 .planete2{
-    height: 70%;
-    position: absolute; top: 40%; left: 70%;
+    height: 60%;
+    position: absolute; bottom: 0px; right: 0px;
     z-index: 2;
 }
 .Big{
