@@ -202,6 +202,17 @@ td{
 .linke{
   color: #E94E1B;
 }
+
+.croix{
+  width: 4%;
+}
+.divcroix{
+  position: absolute; left: 0.1%; top: 2%;
+}
+.position{
+  padding: 20px;
+  
+}
 th{
     font-family: 'Roboto', sans-serif;
 }

@@ -126,6 +126,16 @@ padding: 0px;
 margin: 0px;
 }
 
+.croix{
+    width: 40%;
+
+}
+.divcroix{
+    position: absolute; left: 0.1%; top: 2%;
+}
+.position{
+    padding: 20px;
+}
 /*soleils*/
 .sun1{
     height: 15%;
