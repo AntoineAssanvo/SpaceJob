@@ -174,72 +174,29 @@
             <a href="#titre" class="masquer couleur">Masquer la définition</a>
         </div> 
 <!--qui etes vous?-->
-        <div id="definZ" class="definition">
-            <h2>A propos des membres du projet</h2>
-            <table>
-                <tr>
-                    <th>Antoine ASSANVO</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Accéder à son</td>
-                </tr>
-                <tr>
-                    <td>Mail</td>
-                    <td>CV numérique</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Camille DAHAN</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Accéder à son</td>
-                </tr>
-                <tr>
-                    <td>Mail</td>
-                    <td>CV numérique</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Lucas FASSEL</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Accéder à son</td>
-                </tr>
-                <tr>
-                    <td>Mail</td>
-                    <td>CV numérique</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Hugo RAVET</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Accéder à son</td>
-                </tr>
-                <tr>
-                    <td>Mail</td>
-                    <td>CV numérique</td>
-                </tr>
-            </table>
+        <div id="definZ" class="definition wrapper">
+                <div class="contact-form">
+                  <form method="POST">
+                    <input type="text" name='contact_name' placeholder="Comment t'appelles-tu ?" class="input" />
+                    <input type="text" name='age' placeholder="quel est ton age ???" class="input" />
+                    <input type="email" name='mail' placeholder="Donne nous ton email" class="input">
+            
+                    <select name="profession" class="input">
+                      <option value="secondaire" class="option">Etudiant(e) dans le secondaire</option>
+                      <option value="superieur" class="option">Etudiant(e) dans le superieur</option>
+                      <option value="salarié" class="option">Salarié"</option>
+                      <option value="non-salarié" class="option">Non-salarié"</option>
+                    </select>
+            
+                    <input type="text" name='subject' placeholder=" le sujet de ton message est ?" class="input" />
+            
+            
+                    <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
+                    <!-- je met le bouton envoie-->
+                    <input type="submit" value="Envoyer">
+            
+                  </form>
+              </div>
 
             <a href="#titre" class="masquer couleur">Masquer la définition</a>
         </div> 
