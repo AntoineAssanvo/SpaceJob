@@ -1,0 +1,322 @@
+body{
+    margin: 0px;
+}
+
+/*fond étoilé*/
+.accueil{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('images/fond_satin.png');
+    margin: 0px;
+    padding: 0px;
+}
+.second{
+    position: absolute; top: 100vh;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+p{
+color: white;
+padding: 0px;
+}
+
+h1{
+color: white;
+padding: 0px;
+margin: 0px;
+}
+
+/*soleils*/
+.sun1{
+    height: 15%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    z-index: 12;
+}
+.sys_dev{
+    width: 20%;
+    position: absolute; top: 30%; left: 30%;
+    z-index: 11;
+}
+.sun2{
+    height: 20%;
+    position: absolute;
+    top: 25%;
+    left: 65%;
+    z-index: 12;
+}
+.sys_com{
+    width: 20%;
+    position: absolute; top: 20%; left: 72%;
+    z-index: 11;
+}
+
+/*bienvenue sure*/
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5vw;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+/*décollage & barre*/
+.boutton{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 59%;
+    left: 67%;
+}
+.line{
+    background-color: white;
+    height: 0.1%;
+    width: 25%;
+    position: absolute;
+    top: 60%;
+    left: 41%;
+}
+
+/*space Jobs*/
+.logo_titre{
+    width: 40%;
+    position: absolute;
+    top: 42%;
+    left: 30%;
+}
+
+table{
+    color: #E94E1B;
+    
+}
+td{
+    font-size: 0.8vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+.definx{
+    font-size: 1vw;
+}
+th{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color:#E94E1B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+}
+.couleur{
+    color:#E94E1B;
+}
+
+/*menu lattéral*/
+.logo{
+    width: 110%;
+}
+.nav{
+    margin-top: 20%;
+    padding-top: 20%;
+    margin: 0px;
+    padding-top: 60%;
+    color: white;
+}
+.facebook{
+    width: 80%;
+}
+.twitter{
+    width: 80%;
+}
+.insta{
+    width: 80%;
+}
+.CV{
+    width: 80%;
+}
+.menu{
+    margin-top: 2%;
+    list-style-type: none;
+    position: absolute;
+    right: 95%;
+    top: 0%;
+}
+
+
+
+
+
+
+
+
+.cockpit{
+    position: absolute; bottom: 0px;
+    width: 100vw;
+    height: 75vh;
+    z-index: 10;
+}
+
+
+
+
+
+a#metiers{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 67.5%;
+    left: 21%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+a#propos{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 56.5%;
+    left: 33.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+a#twitter{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 71.5%;
+    left: 33.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+a#neuf{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 67.5%;
+    left: 72%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+a#identité{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 57%;
+    left: 57.5%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.8vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+a#insta{
+    float: left;
+    margin: 0px;
+    position: absolute;
+    top: 72.5%;
+    left: 58%;
+    color: #E94E1B;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    z-index: 11;
+}
+
+/*
+ICI LE COEUR DU SUJET
+*/
+.definition {
+/* par défaut les définitions sont masquées mais conservées dans le flux. Ce qui permet aux "robots" d'accéder à ce contenu. */
+  /*position: absolute;*/
+  border: 0;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  overflow: hidden;
+  z-index: 12;
+  clip: rect(1px 1px 1px 1px); /* IE6 & IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  text-align: center;
+}
+.definition:target {
+/* Lorsqu'une définition est la cible d'un lien (action cliquer), celle-ci rétablit le style des définitions les rendants visibles à l'oeil. */
+  position: absolute;
+  top: 125%; 
+  left: 38%;
+  height: 65%;
+  width: 25%;
+  padding: initial;
+  clip: initial;
+  background-color: #150905;
+  border: grey solid 3px;
+  z-index: 12;
+  color: black;
+  display: block;
+}
+
+.definition:target ~ small {
+    /* cette information est éjectée du flux car non indispensable ni en accessibilité ni en SEO ou autre (où alors un truc auquel je n'ai pas pensé). */
+      display: none;
+    }
+/*
+  FIN DU COEUR DU SUJET
+*/
+
+
+
+
+/*animation flotement*/
+@-webkit-keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(-20px);
+              transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(-10px);
+              transform: translatey(-10px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+      -webkit-transform: translatey(0px);
+              transform: translatey(0px);
+    }
+  }
+
+  .float{
+    animation: float 3s ease-in-out infinite;
+  }
