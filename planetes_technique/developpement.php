@@ -17,7 +17,7 @@ include('../php/head.php');
       <p class="info_text">
         Ce systéme regroupe les métiers qui sont en rapport avec les outils du web tel que : les logiciels de
         programmation, de design et de réseau. Il inclut également des compétences artistiques.
-        <br><span style='font-size:1.6vw;color:rgb(36, 200, 99);'>Vous etes
+        <br><span style='font-size:1.6vw;color:rgb(36, 200, 99);'>Vous êtes
           actuellement sur la <span style='font-size:50px'> &#127757;</span> Développement !</span></br>
       </p>
     </div>

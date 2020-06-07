@@ -15,7 +15,7 @@ include('../php/head.php');
       <h2 class="medium_title">Les métiers du web</h2>
       <p class="info_text">
         Ce systéme est lié à la relation stratégie marketings et web.
-        Les outils utilisées sont des supports de communication web, d'analyse marketing et papier. <br><span style='font-size:1.6vw;color: rgb(214, 75, 56);'>Vous etes
+        Les outils utilisées sont des supports de communication web, d'analyse marketing et papier. <br><span style='font-size:1.6vw;color: rgb(214, 75, 56);'>Vous êtes
           actuellement sur la <span style='font-size:50px'> &#127764;</span> Marketing !</span></br>
       </p>
     </div>

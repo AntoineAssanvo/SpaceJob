@@ -17,7 +17,7 @@ include('../php/head.php');
                 Ce systéme est lié à la relation stratégie marketings et web. Les outils utilisées sont des supports de
                 communication web, d'analyse marketing et papier.
                 <br>
-                <span style='font-size:1.6vw;color: rgb(214, 55, 153);'>Vous etes actuellement sur la
+                <span style='font-size:1.6vw;color: rgb(214, 55, 153);'>Vous êtes actuellement sur la
                     <span style='font-size:50px'>&#127766;</span>
                     Communication !</span></br>
             </p>
