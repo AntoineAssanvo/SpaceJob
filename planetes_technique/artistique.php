@@ -7,7 +7,7 @@ include('../php/head.php');
 
 <body>
   <!-- PAGE D'ACCUEIL------------------------------------------------------------------------------------>
-  <section id="accueil" class="sect-bg grid-wrap" style="background: url('../images/page_img/fond_artiste.png'); background-attachment: scroll;
+  <section id="accueil" class="sect-bg grid-wrap" style="background: url('../images/page_img/fond_reseaux.png'); background-attachment: scroll;
   background-repeat: no-repeat; background-size: 100vw;">
     <h1 class="main-title">Planète Artistique</h1>
 
@@ -21,7 +21,7 @@ include('../php/head.php');
     </div>
     <div class="univ">
       <a href="../dev.php">
-        <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
+        <img src="../images/soleil1.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
     <!--les fleches -->
     <div class="btn_back"> <a href="../dev.php"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
