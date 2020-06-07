@@ -132,7 +132,7 @@
                 </tr>
                 <tr>
                     <td>aassanv1@gmail.com</td>
-                    <td>CV numérique</td>
+                    <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~aassanvo/Cv-numerique/"> CV numérique</a></td>
                 </tr>
             </table>
             <table>
@@ -148,7 +148,7 @@
                 </tr>
                 <tr>
                     <td>Camille.dahan@live.fr</td>
-                    <td>CV numérique</td>
+                    <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~cdahan/cv-numerique/cv/"> CV numérique</a></td>
                 </tr>
             </table>
             <table>
@@ -164,7 +164,7 @@
                 </tr>
                 <tr>
                     <td>Lucastou@me.com</td>
-                    <td>CV numérique</td>
+                    <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~lfassel/cv/"> CV numérique</a></td>
                 </tr>
             </table>
             <table>
@@ -176,11 +176,11 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Accéder à son</td>
+
                 </tr>
                 <tr>
                     <td>hugoferrerravet@gmail.com</td>
-                    <td>CV numérique</td>
+
                 </tr>
             </table>
         </div>
@@ -205,7 +205,7 @@
 
                     <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                     <!-- je met le bouton envoie avec le submit les données sont recu mais la redirection ne fonctionne pas, avec button la redirection fonctionne mais je ne vois pas les données rentre2 dans la base, j'ai essayé de mettre button en submit avec js mais  cela ne fonctionne pas -->
-                    <input type="submit" id="buttonid" onclick='document.location.href=" ./confirmation.php?"' value="Envoyer">
+                    <input type="submit" onclick='window.location.href="./confirmation.php?success=true";' value="Envoyer">
                 </form>
             </div>
 
@@ -242,7 +242,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('../formulaire /connect.php');
+include('./formulaire/connect.php');
 
 
 // je met une condition//
@@ -252,8 +252,8 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
     $requete = $bdd->prepare("INSERT INTO  spacejob_form (contact_name, age, mail, profession, subject, message) VALUES (?, ?, ?, ?, ?, ?)");
     //j'execute la requete//
     $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
-    // $requete = null;
-    // header('Location: ./confirmation.php?success=true');
-    exit;
+    $requete = null;
+    //header('Location: ./confirmation.php?success=true');
+    // exit;
 }
 ?>
