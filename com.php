@@ -205,62 +205,27 @@
         </div>
     </div>
     <!--quoi de neuf?-->
-    <!-- A MODIFIER S--------------------->
-    <div id="definW" class="definition">
-        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
-        <h2>Quoi de neuf sur le site?</h2>
-        <table>
-            <tr>
-                <th>Dèrenières mise à jour</th>
-                <td>xx/xx/2020</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Nouveauté</th>
-                <td>Nouvelle fonctionnalité 1</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                    elit. Etiam convallis fringilla justo.</td>
-            </tr>
-            <tr>
-                <th>Nouveauté</th>
-                <td>Nouvelle fonctionnalité 2</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                    elit. Etiam convallis fringilla justo.</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Dèrenières mise à jour</th>
-                <td>xx/xx/2020</td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <th>Nouveauté</th>
-                <td>Nouvelle fonctionnalité 1</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                    elit. Etiam convallis fringilla justo.</td>
-            </tr>
-            <tr>
-                <th>Nouveauté</th>
-                <td>Nouvelle fonctionnalité 2</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                    elit. Etiam convallis fringilla justo.</td>
-            </tr>
-        </table>
+    
+    <div id="definW" class="definition wrapper">
+    <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+            <h2>Quoi de neuf sur le site?</h2>
+            <table>
+                <tr>
+                    <th>Dèrenières mise à jour</th>
+                    <td>07/06/2020</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>mise en ligne</th>
+                    <td>arrivée de Space Jobs</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Nous vous souhaitons la bienvenue sur Space Jobs et nous sommes<br>
+                    très heureux d'enfin montrer ce projet au grand jour.</td>
+                </tr>
+            </table>    
     </div>
 
 

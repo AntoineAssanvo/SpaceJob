@@ -52,142 +52,138 @@
 
         <!--tableau des métiers-->
         <div id="definX" class="definition scale-up-ver-center">
-            <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
-            <h2>Listes des métiers présentés</h2>
-            <table>
-                <tr>
-                    <th>Technique</th>
-                </tr>
-                <tr>
-                    <td class="definx">Réseaux</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
-                            réseaux</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
-                            réseaux</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Web</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
-                            Web</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
-                            Web</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Graphisme</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
-                            Designer</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
-                </tr>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <h2>Listes des métiers présentés</h2>
+        <table>
+            <tr>
+                <th>Technique</th>
+            </tr>
+            <tr>
+                <td class="definx">Réseaux</td>
+                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
+                        réseaux</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
+                        réseaux</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Web</td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
+                        Web</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
+                        Web</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Graphisme</td>
+                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
+                        Designer</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
+            </tr>
 
-            </table>
+        </table>
 
-            <table>
-                <tr>
-                    <th>Communication</th>
-                </tr>
-                <tr>
-                    <td class="definx">Marketing</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
-                            Manager</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
-                            Projet Multimedia</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Communication</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
-                </tr>
-            </table>
-        </div>
+        <table>
+            <tr>
+                <th>Communication</th>
+            </tr>
+            <tr>
+                <td class="definx">Marketing</td>
+                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
+                        Manager</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
+                        Projet Multimedia</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Communication</td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
+            </tr>
+        </table>
+    </div>
 
         <!--a prpopos de nous-->
         <div id="definY" class="definition">
-            <h2>A propos des membres du projet</h2>
-            <table>
-                <tr>
-                    <th>Antoine ASSANVO</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~aassanvo/Cv-numerique/index1.html">Accéder à
-                            son</a></td>
-                </tr>
-                <tr>
-                    <td>aassanv1@gmail.com</td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~aassanvo/Cv-numerique/index1.html">CV
-                            numérique</a></td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Camille DAHAN</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~cdahan/cv-numerique/cv/">Accéder à son</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Camille.dahan@live.fr</td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~cdahan/cv-numerique/cv/">CV numérique</a></td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Lucas FASSEL</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~lfassel/cv/">Accéder à son</a></td>
-                </tr>
-                <tr>
-                    <td>Lucastou@me.com</td>
-                    <td><a class="linke" href="https://etudiant.u-pem.fr/~lfassel/cv/">CV numérique</a></td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Hugo RAVET</th>
-                </tr>
-                <tr>
-                    <th>Rôle dans le projet</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Accéder à son</td>
-                </tr>
-                <tr>
-                    <td>hugoferrerravet@gmail.com</td>
-                    <td>CV numérique</td>
-                </tr>
-            </table>
-
-            <a href="#titre" class="masquer couleur">Masquer la définition</a>
-        </div>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <h2>A propos des membres du projet</h2>
+        <table>
+            <tr>
+                <th>Antoine ASSANVO</th>
+            </tr>
+            <tr>
+                <th>Chef de projet</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Accéder à son</td>
+            </tr>
+            <tr>
+                <td>aassanv1@gmail.com</td>
+                <td>CV numérique</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Camille DAHAN</th>
+            </tr>
+            <tr>
+                <th>Designer web</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Accéder à son</td>
+            </tr>
+            <tr>
+                <td>Camille.dahan@live.fr</td>
+                <td>CV numérique</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Lucas FASSEL</th>
+            </tr>
+            <tr>
+                <th>Developpeur</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Accéder à son</td>
+            </tr>
+            <tr>
+                <td>Lucastou@me.com</td>
+                <td>CV numérique</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Hugo RAVET</th>
+            </tr>
+            <tr>
+                <th>Designer/ Developpeur</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Accéder à son</td>
+            </tr>
+            <tr>
+                <td>hugoferrerravet@gmail.com</td>
+                <td>CV numérique</td>
+            </tr>
+        </table>
+    </div>
         <!--qui etes vous?-->
         <div id="definZ" class="definition wrapper">
             <div class="contact-form">
@@ -209,7 +205,7 @@
 
                     <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                     <!-- je met le bouton envoie avec le submit les données sont recu mais la redirection ne fonctionne pas, avec button la redirection fonctionne mais je ne vois pas les données rentre2 dans la base, j'ai essayé de mettre button en submit avec js mais  cela ne fonctionne pas -->
-                    <input type="submit"' value="Envoyer">
+                    <input type="submit" id="buttonid" onclick='document.location.href=" ./confirmation.php?"' value="Envoyer">
                 </form>
             </div>
 
@@ -221,55 +217,20 @@
             <table>
                 <tr>
                     <th>Dèrenières mise à jour</th>
-                    <td>xx/xx/2020</td>
+                    <td>07/06/2020</td>
                 </tr>
             </table>
             <table>
                 <tr>
-                    <th>Nouveauté</th>
-                    <td>Nouvelle fonctionnalité 1</td>
+                    <th>mise en ligne</th>
+                    <td>arrivée de Space Jobs</td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                        elit. Etiam convallis fringilla justo.</td>
+                    <td>Nous vous souhaitons la bienvenue sur Space Jobs et nous sommes<br>
+                    très heureux d'enfin montrer ce projet au grand jour.</td>
                 </tr>
-                <tr>
-                    <th>Nouveauté</th>
-                    <td>Nouvelle fonctionnalité 2</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                        elit. Etiam convallis fringilla justo.</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Dèrenières mise à jour</th>
-                    <td>xx/xx/2020</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>Nouveauté</th>
-                    <td>Nouvelle fonctionnalité 1</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                        elit. Etiam convallis fringilla justo.</td>
-                </tr>
-                <tr>
-                    <th>Nouveauté</th>
-                    <td>Nouvelle fonctionnalité 2</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing<br>
-                        elit. Etiam convallis fringilla justo.</td>
-                </tr>
-            </table>
+            </table>    
 
             <a href="#titre" class="masquer couleur">Masquer la définition</a>
         </div>
@@ -281,7 +242,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('../formulaire/connect.php');
+include('./formulaire /lie/connect.php');
 
 
 // je met une condition//
