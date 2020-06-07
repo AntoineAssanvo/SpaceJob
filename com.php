@@ -199,7 +199,7 @@
 
                 <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                 <!-- je met le bouton envoie-->
-                <input type="button" onclick='window.location.href="./confirmation.php?success=true";' value="Envoyer">
+                <input type="submit" onclick='window.location.href="./confirmation.php?success=true";' value="Envoyer">
 
             </form>
         </div>

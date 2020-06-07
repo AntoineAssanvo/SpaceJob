@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="com.html">
+    <script src="app.js" async></script>
     <!--<script src="scroll.js"></script>-->
 
 </head>
@@ -40,10 +41,10 @@
             <a href="https://www.instagram.com/space_jobs/?igshid=gy4651omhykd&fbclid=IwAR0YhbLVY3aUDW2mUmqaIg5kXT3ymK3dnLfFPIgvjjm72eSCqvvOmWebCpk" id="insta">INSTAGRAM</a>
 
             <img class="cockpit" src="images/cockpit.png">
-            <a href="dev.html"><img class="sun1 float" src="images/soleil1.png"></a>
-            <a href="dev.html"><img class="sys_dev" src="images/sys_dev.png"></a>
-            <a href="com.html"><img class="sun2 float" src="images/soleil2.png"></a>
-            <a href="com.html"><img class="sys_com" src="images/sys_com.png"></a>
+            <a href="dev.php"><img class="sun1 float" src="images/soleil1.png"></a>
+            <a href="dev.php"><img class="sys_dev" src="images/sys_dev.png"></a>
+            <a href="com.php"><img class="sun2 float" src="images/soleil2.png"></a>
+            <a href="com.php"><img class="sys_com" src="images/sys_com.png"></a>
         </div>
 
 
@@ -185,7 +186,7 @@
         <!--qui etes vous?-->
         <div id="definZ" class="definition wrapper">
             <div class="contact-form">
-                <form method="POST">
+                <form method="POST" id="form_id">
                     <!-- Method POST de manière à ne pas afficher les données dans la barre url -->
                     <input type="text" name='contact_name' placeholder="Comment t'appelles-tu ?" class="input" />
                     <input type="text" name='age' placeholder="quel est ton age ???" class="input" />
@@ -203,8 +204,7 @@
 
                     <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                     <!-- je met le bouton envoie-->
-                    <input type="button" onclick='window.location.href="./confirmation.php?success=true";' value="Envoyer">
-
+                    <input type="submit" id="buttonid" onclick='document.location.href=" ./confirmation.php?"' value="Envoyer">
                 </form>
             </div>
 
@@ -269,10 +269,6 @@
             <a href="#titre" class="masquer couleur">Masquer la définition</a>
         </div>
     </div>
-
-
-
-
 </body>
 
 </html>
@@ -292,6 +288,6 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
     $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
     // $requete = null;
     // header('Location: ./confirmation.php?success=true');
-    //exit;
+    exit;
 }
 ?>
