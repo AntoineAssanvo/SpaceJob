@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <link rel="icon" type="image/png" href="images/logo_web.png">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <title>Planète Marketing</title>
-</head>
+<?php
+include('../php/head.php');
+?>
+<title>Planète Marketing</title>
 
 <body>
   <!-- PAGE D'ACCUEIL------------------------------------------------------------------------------------>
@@ -23,9 +14,8 @@
     <div class="main_text_container">
       <h2 class="medium_title">Les métiers du web</h2>
       <p class="info_text">
-        Cet univers est lié à la relation stratégie marketings et web.
-        Les outils utilisées sont des supports de communication web, d'analyse marketing et papier. <br><span
-          style='font-size:1.6vw;color: rgb(214, 75, 56);'>Vous etes
+        Ce systéme est lié à la relation stratégie marketings et web.
+        Les outils utilisées sont des supports de communication web, d'analyse marketing et papier. <br><span style='font-size:1.6vw;color: rgb(214, 75, 56);'>Vous etes
           actuellement sur la <span style='font-size:50px'> &#127764;</span> Marketing !</span></br>
       </p>
     </div>
@@ -33,10 +23,8 @@
       <a href="../index2.html">
         <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
-    <div class="btn_back"> <a href="../com.html"> <img src="../images/right.png" class="back_arrow"
-          alt="Retourner à la page précédente"></a></div>
-    <div class="btn_down"> <a href="#seconde_page"> <img src="../images/arrow.png" class="down_arrow down "
-          alt="Retourner à la page précédente"></a></div>
+    <div class="btn_back"> <a href="../com.html"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
+    <div class="btn_down"> <a href="#seconde_page"> <img src="../images/arrow.png" class="down_arrow down " alt="Retourner à la page précédente"></a></div>
   </section>
   <!-- PREMIER METIER--------------------------------------------------------->
   <section id="premiere_page" class="sect-temoignage grid-wrap">
@@ -130,11 +118,10 @@
 
   </section>
   <!--- FIN DU METIER -->
-  <div class="transition">
-    <img src="../images/page_img/fond_middle_1.png" class="fond_mid_1" alt=""></div>
-  <div class="transition_2">
-    <img src="../images/page_img/fond_middle_2.png" class="fond_mid_2" alt="">
-  </div>
+
+  <?php
+  include('../php/transition_1.php');
+  ?>
   <!-- DEUXIEME METIER --------------------------------------------------------------------------------->
   <section id="seconde_page" class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
@@ -224,13 +211,9 @@
 
   </section>
   <!-- FIN METIER 2 1------------------------------------------------------------------------------------>
-  <div class="transition">
-    <div class="btn_up">
-      <a href="#accueil">
-        <img src="../images/arrow.png" class="up_arrow up " alt="Retourner à la page précédente"></a>
-    </div>
-    <img src="../images/page_img/fond_end.png" class="fond_end " alt="">
-  </div>
+  <?php
+  include('../php/transition_1.php');
+  ?>
 
 </body>
 
