@@ -41,8 +41,8 @@ include('../php/head.php');
     </div>
     <!-- PARTIE TEXTE------------------------------------------------------------------------------------>
     <div class="metier_container">
-      <h2 class="medium_title">
-        Développeur Web
+      <h2 class="medium_title"><span style='color:rgb(36, 200, 99);'>
+          Développeur Web</span>
       </h2>
       <em>En quoi consiste ce métier ?</em>
       <p class="info_metier">
@@ -121,7 +121,7 @@ include('../php/head.php');
     </div>-->
     <!-- PARTIE TEXTE------------------------------------------------------------------------------------>
     <div class="metier_container2">
-      <h2 class="medium_title">Concepteur Web
+      <h2 class="medium_title"><span style='color:rgb(36, 200, 99);'>Concepteur Web</span>
       </h2>
       <em>En quoi consiste ce métier ?</em>
       <p class="info_metier">
@@ -161,23 +161,17 @@ include('../php/head.php');
 
       </div>
 
-      <!--<div class="temoin_container"></div>
-      <div class="info_temoin">
-        <em>MOUssa V</em>
-        <p class="para-temoin">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam atque quasi repudiandae vitae repellendus ducimus, assumenda consequatur aliquid incidunt. Quas reprehenderit doloribus quis repudiandae consectetur ad odio, voluptatibus quia.
-        </p>
-      </div>
+
       <div class="contact_temoin">
         <h2 class="lil_title">
-          Le contacter:</h2>
-        <a href="#" class="links" target="_blank">
-          <i class='fab fa-linkedin-in' style='font-size:24px'></i>
+          Pour plus d'information voir :</h2>
+        <a href=" https://www.letudiant.fr/metiers/secteur/informatique-telecom-web/concepteur-web.html" class="links" target="_blank"> <img src="../images/l'etu.png" style='height:24px' alt="voir page">
+
         </a>
-        <a href="#" class="links" target="_blank">
-          <i class='fab fa-linkedin-in' style='font-size:24px'></i>
+        <a href="https://www.studyrama.com/formations/fiches-metiers/internet-web/concepteur-web-1080" class="links" target="_blank">
+          <img src="../images/study.png" style='height:24px; margin-left:10px;' alt="voir page">
         </a>
-      </div>-->
+      </div>
 
   </section>
   <!-- FIN DU METIER 2 VIDEO------------------------------------------------------------------------------------>

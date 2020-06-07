@@ -132,7 +132,7 @@ include('../php/head.php');
     </div>
     <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
     <div class="metier_container">
-      <h2 class="medium_title">Chef de projet multimédia
+      <h2 class="medium_title"> <span style='color: rgb(214, 75, 56);'>Chef de projet multimédia</span>
       </h2>
       <em>En quoi consiste ce métier ?</em>
       <p class="info_metier">Le chef de projet multimédia est un métier très varié et peut prendre différentes formes selon

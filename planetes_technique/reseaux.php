@@ -37,7 +37,7 @@ include('../php/head.php');
         </div>
         <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
         <div class="metier_container">
-            <h2 class="medium_title"><span style='color: rgb(27, 63, 226);'>Architecte réseaux</span>
+            <h2 class="medium_title"><span style='color:rgb(27, 63, 226);'>Architecte réseaux</span>
             </h2>
             <em>En quoi consiste ce métier ?</em>
             <p class="info_metier">
@@ -116,7 +116,7 @@ include('../php/head.php');
         </div>
         <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
         <div class="metier_container">
-            <h2 class="medium_title">Administrateur réseaux
+            <h2 class="medium_title"><span style='color:rgb(27, 63, 226);'>Administrateur réseaux</span>
             </h2>
             <em>En quoi consiste ce métier ?</em>
             <p class="info_metier">
