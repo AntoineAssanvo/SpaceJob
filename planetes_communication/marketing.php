@@ -212,7 +212,7 @@ include('../php/head.php');
   </section>
   <!-- FIN METIER 2 1------------------------------------------------------------------------------------>
   <?php
-  include('../php/transition_1.php');
+  include('../php/transition_2.php');
   ?>
 
 </body>
