@@ -24,7 +24,7 @@ include('../php/head.php');
         <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
     <div class="btn_back"> <a href="../com.html"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
-    <div class="btn_down"> <a href="#seconde_page"> <img src="../images/arrow.png" class="down_arrow down " alt="Retourner à la page précédente"></a></div>
+    <div class="btn_down"> <a href="#seconde_page"> <img src="../images/arrow.png" class="down_arrow down " alt="page suivante"></a></div>
   </section>
   <!-- PREMIER METIER--------------------------------------------------------->
   <section id="premiere_page" class="sect-temoignage grid-wrap">
