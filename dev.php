@@ -31,7 +31,7 @@
         <img class="planete2" id="bleuBig" src="images/planète8cut.png"></a>
 
         <img class="planete3" id="MoonLil" src="images/planète5.png">
-        <a href="planetes_technique/artistique.phpl"><img class="terre " id="terreUp" src="images/terre.png"></a>
+        <a href="planetes_technique/artistique.php"><img class="terre " id="terreUp" src="images/terre.png"></a>
 
 
         <a class="retour" href="accueil.php#suite">Retour</a>
