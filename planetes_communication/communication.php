@@ -23,7 +23,7 @@ include('../php/head.php');
             </p>
         </div>
         <div class="univ">
-            <a href="../index2.html">
+            <a href="../com.php">
                 <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
         </div>
         <!--les fleches -->
@@ -77,13 +77,11 @@ include('../php/head.php');
                 en marketing et en communication. Le salaire est aux alentours de<br>
                 <span style="color: #ff0000;">1 800</span>
                 brut par mois en début de carrière et peut aller jusqu’à
-                <span style="color: #ff0000;">1 800</span>
+                <span style="color: #ff0000;">3 000</span>
                 pour les plus confirmés.
             </p>
             <em>Le niveau d'étude:</em>
-            <span class="info_metier">Pour exercer le métier de community manager, il existe différent parcours
-                possible. Un bac +2 minimum est nécessaire. Nous vous proposons un parcours réalisable en effectuant un
-                DUT MMI :</span>
+            <span class="info_metier">Pour exercer le métier de consultant SEO. Il y à différent parcours possible. Nous vous proposons un parcours réalisable en effectuant un DUT MMI :</span>
 
             <div class="clear">
                 <ul class="niv_etude">
@@ -111,9 +109,7 @@ include('../php/head.php');
             <em>
                 <span style='color: rgb(214, 55, 153);'>Linda Schell</em>
             <p class="para-temoin">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam atque quasi repudiandae vitae
-                repellendus ducimus, assumenda consequatur aliquid incidunt. Quas reprehenderit doloribus quis
-                repudiandae consectetur ad odio, voluptatibus quia.
+                Linda Schel consultante seo depuis 2003, répond à differentes questions concernant ses études, les caractéristique de son métier.
             </p>
         </div>
         <div class="contact_temoin">
@@ -138,7 +134,8 @@ include('../php/head.php');
         <div class="video_temoignage">
             <video controls="controls" width="400" height="300">
                 <source src="../videos/entrepreneur_web.mp4" type="video/mp4">
-                <!-- <source src="videos/entrepreneur_web.webmhd.webm" type="video/webmhd"> <source src="videos/entrepreneur_web.webmsd.webm" type="video/webmsd">-->
+                <source src="videos/entrepreneur_web.webmhd.webm" type="video/webmhd">
+                <source src="videos/entrepreneur_web.webmsd.webm" type="video/webmsd">
             </video>
         </div>
         <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
@@ -217,7 +214,7 @@ include('../php/head.php');
                 tuto.com.
                 <br>
                 En août 2015 que je décide d’arrêter mes études pour monter ma 1ère startup, le projet que je porte
-                depuis mes 15 ans : Swello
+                depuis mes 15 ans : Swello.
             </p>
         </div>
         <div class="contact_temoin">

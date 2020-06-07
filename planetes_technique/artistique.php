@@ -20,11 +20,11 @@ include('../php/head.php');
       </p>
     </div>
     <div class="univ">
-      <a href="../index1.html">
+      <a href="../dev.php">
         <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
     <!--les fleches -->
-    <div class="btn_back"> <a href="../com.php"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
+    <div class="btn_back"> <a href="../dev.php"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
     <div class="btn_down"> <a href="#premiere_page"> <img src="../images/arrow.png" class="down_arrow down " alt="page suivante"></a></div>
   </section>
   <!-- PREMIER METIER------------------------------------------------------------------------------------>
@@ -89,9 +89,8 @@ include('../php/head.php');
     <div class="info_temoin">
       <em style="margin-bottom: 5px;"><span style='color: #b18867;'>Marc-Antoine F.</span></em>
       <p class="para-temoin">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam atque quasi repudiandae vitae repellendus
-        ducimus, assumenda consequatur aliquid incidunt. Quas reprehenderit doloribus quis repudiandae consectetur ad
-        odio, voluptatibus quia.
+        Marc-Antoine Feriaux ancien du DUT MMI à l'IUT Marne-la-vallée nous raconte son metier de motion designer en alternance.
+
       </p>
     </div>
     <div class="contact_temoin">
@@ -125,23 +124,18 @@ include('../php/head.php');
       <h2 class="medium_title"><span style='color: #b18867;'> Graphiste</span> </h2>
       <em>En quoi consiste ce métier ?</em>
       <p class="info_metier">
-        Le web designer est moitié graphiste moitié développeur. Il créer principalement des pages web mais peut
-        également créer des applications. Dans un premier temps, il prendra connaissance du besoin client et de ses
+        Le graphiste créer principalement des visuels pour des projets.sect-bgDans un premier temps, il prendra connaissance du besoin client et de ses
         attentes concernant le design. Il réalisera une maquette ou il instaurera une charte graphique. <br> Il aura la
         responsabilité du choix de la place des photos, la taille des caractères et les couleurs qui rendront la
         consultation agréable pour l'utilisateur. Il pourra également créer des identités visuelles telles que des
         pictogrammes pour faciliter la compréhension de l’utilisateur.</br></p>
-      <p class="info_metier">C'est un exercice délicat car il faut respecter à la fois la demande du client, les
-        impératifs de marketing et de communication et ceux du public visé.
-        Il doit prendre en compte de nombreuses contraintes liées au web : le temps de téléchargement qui peut être trop
-        lent.
+      <p class="info_metier">
         Il doit avoir une grande maîtrise des logiciels comme <i> Photoshop, Illustrator ou InDesign</i> (suite adobe)
         et des
-        outils de maquettage (<i>sketch, Adobe XD</i>).<br> Il doit avoir de bonnes connaissances en <i>HTML</i> et
+        outils de maquettage (<i>sketch, Adobe XD</i>).<br> Il peut également avoir de bonnes connaissances en <i>HTML</i> et
         <i>CSS</i>, pour
         savoir
-        comment sa maquette devra être mise en place. Il devra également avoir de bonnes bases en ergonomie pour
-        proposer des maquettes de site adaptées et efficientes à l’utilisateur.
+        comment sa maquette devra être mise en place.
         La veille est primordiale dans son domaine que ce soit d’un point de vue outils graphiques ou développement
         front-end. L’autoformation lui permettra de rester à la page et de ne pas se retrouver rapidement dépassé par
         les évènements.
@@ -152,8 +146,7 @@ include('../php/head.php');
       <em>Combien gagne t'il ??</em>
       <p class="info_metier">Les salaires tournent autour <span style="color:red;">1 800</span> euros bruts mensuels
         pour un débutant et peu atteindre <span style="color:red;">5 800</span> euros pour un senior.
-        <br> La plupart des webdesigners exercent en indépendant, c’est donc une rémunération par heure ou par projets
-        et non un salaire fixe. </br>
+
 
       </p>
       <em>Le niveau d'étude:</em>
@@ -162,6 +155,8 @@ include('../php/head.php');
         <ul class="niv_etude">
           <li>
             DUT MMI
+          </li>
+          <li>Bachelor création et design
           </li>
           <li>License pro: graphisme et création du web
           </li>
@@ -177,9 +172,7 @@ include('../php/head.php');
     <div class="info_temoin">
       <em> <span style='color: #b18867;'>Eloïse Marty</span></em>
       <p class="para-temoin">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nam atque quasi repudiandae vitae repellendus
-        ducimus, assumenda consequatur aliquid incidunt. Quas reprehenderit doloribus quis repudiandae consectetur ad
-        odio, voluptatibus quia.
+        Eloïse Marty, graphiste en entreprise explique le metier de graphiste.
       </p>
     </div>
     <div class="contact_temoin">

@@ -20,10 +20,10 @@ include('../php/head.php');
       </p>
     </div>
     <div class=" univ">
-      <a href="../index2.html">
+      <a href="../com.php">
         <img src="../images/soleil2.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
-    <div class="btn_back"> <a href="../com.html"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
+    <div class="btn_back"> <a href="../com.php"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
     <div class="btn_down"> <a href="#seconde_page"> <img src="../images/arrow.png" class="down_arrow down " alt="page suivante"></a></div>
   </section>
   <!-- PREMIER METIER--------------------------------------------------------->
@@ -104,7 +104,7 @@ include('../php/head.php');
       </em>
       <p class="para-temoin">
         Valentin est un étudiant en 3ème année de Bachelor Responsable de Communication. il nous raconte son parcours et
-        son metier actuel, community manager.
+        son metier actuel en tant que community manager.
       </p>
     </div>
     <div class="contact_temoin">

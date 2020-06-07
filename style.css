@@ -15,6 +15,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
 /* j'installe les grilles*/
 .grid-wrap {
     display: grid;
@@ -22,15 +23,17 @@ body {
     grid-template-rows: [line1] 10% [line2] 10% [line3] 10% [line4] 10% [line5] 10% [line6] 10% [line7] 10% [line8] 10% [line10] 5% [line11] 5% [line12] 5% [line13]5%;
     grid-template-columns: [col1] 5% [col2]10% [col3] 10% [col4] 10% [col5] 10% [col6] 10% [col7]10% [col8] 10% [col9]10% [col10] 5% [col11]5%;
 }
+
 /* je difinis la tailles de mes pages */
 section {
     height: 100vh;
 }
+
 /* je positionne les bloques qui font une transition entre les meitiers*/
 .transition {
     position: relative;
     height: 35vh;
-   
+
 
 }
 
@@ -39,11 +42,13 @@ section {
     height: 50vh;
 
 }
+
 /* je met position relative au conteneur de toutes mes donné(le parent)*/
 .sect-bg,
 .sect-temoignage {
     position: relative;
 }
+
 /* je créer une animation*/
 .sect-bg {
     animation: breath 8s linear infinite;
@@ -75,6 +80,7 @@ section {
     z-index: 99;
     bottom: 0%;
 }
+
 /* l'univers*/
 .p_univ {
     height: 15vh;
@@ -82,6 +88,7 @@ section {
     left: 10%;
     top: -5%;
 }
+
 /*les fleches*/
 .back_arrow {
     height: 4vh;
@@ -103,6 +110,7 @@ section {
 
 
 }
+
 /*l'animation de l'univers*/
 .move {
     -webkit-animation: movemode 1.3s infinite alternate ease-in-out;
@@ -120,6 +128,7 @@ section {
         opacity: 0.9
     }
 }
+
 /* Des fleches*/
 .down {
     -webkit-animation: downarrow 0.9s infinite alternate ease-in-out;
@@ -249,6 +258,7 @@ section {
     margin: 0rem 0 0 0;
     text-align: justify;
 }
+
 /* partie videos*/
 .video_temoignage {
     grid-area: 2/2/6/6;
@@ -270,6 +280,17 @@ section {
     justify-content: flex-start;
 
 }
+
+.metier_container2 {
+    grid-area: 2/2/13/10;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-left: 5px;
+    justify-content: flex-start;
+
+}
+
 /* les sous titres*/
 .metier_container em {
     font-size: 1.1rem;
@@ -281,6 +302,7 @@ section {
     text-align: justify;
     margin: 8px 0px 8px 0;
 }
+
 /* partie UL*/
 /* pour le mettre cote à cote les ul */
 .clear {
@@ -312,6 +334,7 @@ section {
     font-size: 0.9rem;
 
 }
+
 /* Profil temoin*/
 .temoin_container {
     grid-area: 6/2/8/4;
@@ -352,6 +375,7 @@ section {
 .links i {
     margin-right: 5px;
 }
+
 /* les icons liens*/
 .fa-linkedin-in,
 .fa-twitter {

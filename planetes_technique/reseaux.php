@@ -20,7 +20,7 @@ include('../php/head.php');
             </p>
         </div>
         <div class="univ">
-            <a href="../index1.html">
+            <a href="../dev.php">
                 <img src="../images/soleil1.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
         </div>
         <div class="btn_back"> <a href="../dev.php"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
