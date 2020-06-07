@@ -131,8 +131,8 @@ a{text-decoration: none;}
 }
 .terre{
   height: 20%;
-    position: absolute; top: 10%; right: 20%;
-    z-index: 11;
+  position: absolute; top: 10%; right: 15%;
+  z-index: 11;
 }
 .graphisme{
     width: 20%;
