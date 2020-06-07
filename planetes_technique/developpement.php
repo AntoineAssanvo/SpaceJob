@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="">
-  <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <link rel="icon" type="image/png" href="images/logo_web.png">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-  <title>Planète Développement</title>
-</head>
+<?php
+include('../php/head.php');
+?>
+<title>Planète Développement</title>
 
 <body>
   <!-- PAGE D'ACCUEIL------------------------------------------------------------------------------------>
@@ -24,7 +15,7 @@
     <div class="main_text_container">
       <h2 class="medium_title">Les métiers du web</h2>
       <p class="info_text">
-        Cet univers regroupe les métiers qui sont en rapport avec les outils du web tel que : Les logiciels de
+        Ce systéme regroupe les métiers qui sont en rapport avec les outils du web tel que : Les logiciels de
         programmation, de design et de réseau. Il inclut également des compétences artistiques.
         <br><span style='font-size:1.6vw;color:rgb(36, 200, 99);'>Vous etes
           actuellement sur la <span style='font-size:50px'> &#127757;</span> Développement !</span></br>
@@ -34,10 +25,8 @@
       <a href="../index1.html">
         <img src="../images/soleil1.png" class="p_univ move" alt="Retourner à l'univer techniques"></a>
     </div>
-    <div class="btn_back"> <a href="../dev.html"> <img src="../images/right.png" class="back_arrow"
-          alt="Retourner à la page précédente"></a></div>
-    <div class="btn_down"> <a href="dev.html"> <img src="../images/arrow.png" class="down_arrow down "
-          alt="Retourner à la page précédente"></a></div>
+    <div class="btn_back"> <a href="../dev.html"> <img src="../images/right.png" class="back_arrow" alt="Retourner à la page précédente"></a></div>
+    <div class="btn_down"> <a href="dev.html"> <img src="../images/arrow.png" class="down_arrow down " alt="Retourner à la page précédente"></a></div>
   </section>
   <!-- PREMIER METIER------------------------------------------------------------------------------------>
   <section id="premiere_page" class="sect-temoignage grid-wrap">
@@ -73,8 +62,7 @@
 
       <em>Combien gagne t'il ?</em>
       <p class="info_metier">Le salaire varie selon les années d’expérience et d’ancienneté mais le concepteur web peut
-        gagner à ses débuts environ <span style="color:red;">2 000</span> euros bruts par mois et <span
-          style="color:red;">5 000</span> euros en tant que confirmé.</p>
+        gagner à ses débuts environ <span style="color:red;">2 000</span> euros bruts par mois et <span style="color:red;">5 000</span> euros en tant que confirmé.</p>
       <em>Le niveau d'étude:</em>
       <div class="clear">
 
@@ -111,11 +99,9 @@
 
   </section>
   <!--- FIN DU METIER ------------------------------------------------------------------------------------------------->
-  <div class="transition">
-    <img src="../images/page_img/fond_middle_1.png" class="fond_mid_1" alt=""></div>
-  <div class="transition_2">
-    <img src="../images/page_img/fond_middle_2.png" class="fond_mid_2" alt="">
-  </div>
+  <?php
+  include('../php/transition_1.php');
+  ?>
   <!-- DEUXIEME METIER --------------------------------------------------------------------------------->
   <section class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
@@ -181,8 +167,7 @@
       <p class="para-temoin">
         Johan Coannenterre Thomias est un diplomé du DUT MMI,
         Diplômé d'une Licence 3 Information Communication et préparation d'un Master 1 dans le Digital.
-        Il est développeur web depuis 3 ans et il est notamment le porteur du projet SWETY qui a été élus 🏅 <span
-          style='color:rgb(36, 200, 99);'>prix du Numérique de la saison 2019 des Entrepreneuriales </span>.
+        Il est développeur web depuis 3 ans et il est notamment le porteur du projet SWETY qui a été élus 🏅 <span style='color:rgb(36, 200, 99);'>prix du Numérique de la saison 2019 des Entrepreneuriales </span>.
       </p>
     </div>
     <div class="contact_temoin">
@@ -195,14 +180,9 @@
     </div>
   </section>
   <!-- FIN DU METIER 2 VIDEO------------------------------------------------------------------------------------>
-  <div class="transition">
-    <div class="btn_up">
-      <a href="#accueil">
-        <img src="../images/arrow.png" class="up_arrow up " alt="Retourner à la page précédente"></a>
-    </div>
-    <img src="../images/page_img/fond_end.png" class="fond_end " alt="">
-  </div>
-
+  <?php
+  include('../php/transition_2.php');
+  ?>
 </body>
 
 </html>
