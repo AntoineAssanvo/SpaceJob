@@ -87,7 +87,7 @@
             <tr>
                 <td></td>
                 <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
-                        Projet Web</a></td>
+                        Projet Multimedia</a></td>
             </tr>
             <tr>
                 <td class="definx">Communication</td>
@@ -95,8 +95,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef de
-                        Projet Web</a></td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
             </tr>
             <!-- A MODIFIER PAS LA BONNE PLACE ET DE NOM--------------------->
             <tr>
@@ -106,8 +105,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Web
-                        Designer</a></td>
+                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
             </tr>
         </table>
     </div>

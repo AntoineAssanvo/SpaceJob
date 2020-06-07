@@ -51,65 +51,71 @@
 
 
         <!--tableau des métiers-->
-        <div id="definX" class="definition">
-            <h2>Listes des métiers présentés</h2>
-            <table>
-                <tr>
-                    <th>Développement</th>
-                </tr>
-                <tr>
-                    <td class="definx">Réseaux</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
-                            réseaux</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur réseaux</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Web</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur Web</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur Web</a></td>
-                </tr>
-            </table>
+        <div id="definX" class="definition scale-up-ver-center">
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <h2>Listes des métiers présentés</h2>
+        <table>
+            <tr>
+                <!--- modifie ici aussi technique pas dev à faire sur les deux  autres page -->
+                <th>Développement</th>
+            </tr>
+            <tr>
+                <td class="definx">Réseaux</td>
+                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
+                        réseaux</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
+                        réseaux</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
+                        Web</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Web</td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
+                        Web</a></td>
+            </tr>
 
-            <table>
-                <tr>
-                    <th>Communication</th>
-                </tr>
-                <tr>
-                    <td class="definx">Marketing</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community Manager</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef
-                            de Projet Web</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Communication</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef de Projet Web</a></td>
-                </tr>
-                <tr>
-                    <td class="definx">Graphisme</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premiere_page">Motion
-                            Designer</a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Web
-                            Designer</a></td>
-                </tr>
-            </table>
-            <a href="#titre" class="masquer couleur">masquer la définition</a>
-        </div>
+        </table>
+
+        <table>
+            <tr>
+                <th>Communication</th>
+            </tr>
+            <tr>
+                <td class="definx">Marketing</td>
+                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
+                        Manager</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
+                        Projet Multimedia</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Communication</td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
+            </tr>
+            <!-- A MODIFIER PAS LA BONNE PLACE ET DE NOM--------------------->
+            <tr>
+                <td class="definx">Graphisme</td>
+                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
+                        Designer</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
+            </tr>
+        </table>
+    </div>
 
         <!--a prpopos de nous-->
         <div id="definY" class="definition">
