@@ -59,8 +59,7 @@ include('../php/head.php');
         des fiches produits ou des vidéos promotionnels. Il rassemblera un groupe de personnes derrière lui grâce à son
         style et sa touche personnelle pour promouvoir la marque.
         <br>Le community manager exerce d’autres activités comme l'analyse des résultats, la production de contenu
-        rédactionnel, d'images et de photos (content manager), la veille sur sa marque, la définition de stratégies et
-        formalisation de procédures.
+        rédactionnel, d'images et de photos (content manager).
 
       </p>
 
@@ -74,7 +73,7 @@ include('../php/head.php');
       </p>
       <em>Le niveau d'étude:</em>
       <span class="info_metier">Pour exercer le métier de community manager, il existe différent parcours possible. Un
-        bac +2 minimum est nécessaire. Nous vous proposons un parcours réalisable en effectuant un DUT MMI :</span>
+        bac +2 minimum est nécessaire. <br> Nous vous proposons un parcours réalisable en effectuant un DUT MMI :</span>
       <ul class="niv_etude">
 
         <div class="clear">
@@ -103,7 +102,7 @@ include('../php/head.php');
         <span style='color: rgb(214, 75, 56);'>Valentin Rehheiser</span>
       </em>
       <p class="para-temoin">
-        Valentin est un étudiant en 3ème année de Bachelor Responsable de Communication. il nous raconte son parcours et
+        Valentin est un étudiant en 3ème année de <span style='color: rgb(214, 75, 56);'> Bachelor Responsable de Communication</span>. Il nous raconte son parcours et
         son metier actuel en tant que community manager.
       </p>
     </div>
@@ -144,9 +143,7 @@ include('../php/head.php');
         ou encore
         <i>intranet</i>. Le chef de projet a pour rôle de mener son équipe et de la diriger pour atteindre l’objectif
         fixé.
-        <br>
-        Il doit être compétent dans tous les domaines : à la fois en marketing mais également dans les domaines
-        techniques comme le développement.
+
         <br>Il faut qu’il soit pluridisciplinaire pour pouvoir aider au mieux son équipe et comprendre les difficultés
         qu’elle peut rencontrer. Le chef de projet a beaucoup de responsabilités et peut agir sur la totalité du projet,
         il a un droit de regard sur l’ensemble des étapes.</p>

@@ -172,7 +172,7 @@ include('../php/head.php');
     <div class="info_temoin">
       <em> <span style='color: #b18867;'>Eloïse Marty</span></em>
       <p class="para-temoin">
-        Eloïse Marty, graphiste en entreprise explique le metier de graphiste.
+        Eloïse Marty, ancienne étudiante à Champs-sur-Marne est actuellement graphiste depuis 4 mois au sein d'une entreprise. <br> Elle nous explique le metier de graphiste.
       </p>
     </div>
     <div class="contact_temoin">
