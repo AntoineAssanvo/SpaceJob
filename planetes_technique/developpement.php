@@ -15,7 +15,7 @@ include('../php/head.php');
     <div class="main_text_container">
       <h2 class="medium_title">Les métiers du web</h2>
       <p class="info_text">
-        Ce systéme regroupe les métiers qui sont en rapport avec les outils du web tel que : Les logiciels de
+        Ce systéme regroupe les métiers qui sont en rapport avec les outils du web tel que : les logiciels de
         programmation, de design et de réseau. Il inclut également des compétences artistiques.
         <br><span style='font-size:1.6vw;color:rgb(36, 200, 99);'>Vous etes
           actuellement sur la <span style='font-size:50px'> &#127757;</span> Développement !</span></br>
@@ -108,8 +108,8 @@ include('../php/head.php');
     <div class="video_temoignage">
       <video controls="controls">
         <source src="../videos/développeur.mp4" type="video/mp4">
-        <!-- <source src="../videos/développeur.webmhd.webm" type="video/webm">
-        <source src="../videos/développeur.webmsd.webm" type="video/webmsd">-->
+        <source src="../videos/développeur.webmhd.webm" type="video/webm">
+        <source src="../videos/développeur.webmsd.webm" type="video/webmsd">
       </video>
     </div>
     <!-- PARTIE TEXTE------------------------------------------------------------------------------------>

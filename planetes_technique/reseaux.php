@@ -14,7 +14,7 @@
             <div class="main_text_container">
                 <h2 class="medium_title">Les métiers du web</h2>
                 <p class="info_text">
-                    Ce système regroupe les métiers qui sont en rapport avec les outils du web tel que : Les logiciels de
+                    Ce système regroupe les métiers qui sont en rapport avec les outils du web tel que : les logiciels de
                     programmation, de design et de réseau. Il inclut également des compétences artistiques. <br><span style='font-size:1.6vw;color: rgb(27, 63, 226);'>Vous etes
                         actuellement sur la <span style='font-size:50px'> &#127759;</span> Réseaux !</span></br>
                 </p>

@@ -32,8 +32,8 @@ include('../php/head.php');
     <div class="video_temoignage">
       <video controls="controls">
         <source src="../videos/community_manager.mp4" type="video/mp4">
-        <!-- <source src="../videos/community_manager.webmhd.webm" type="video/webmhd">
-        <source src="../videos/community_manager.webmsd.webm" type="video/webmsd">-->
+        <source src="../videos/community_manager.webmhd.webm" type="video/webmhd">
+        <source src="../videos/community_manager.webmsd.webm" type="video/webmsd">
       </video>
     </div>
     <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
