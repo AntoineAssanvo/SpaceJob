@@ -132,10 +132,10 @@ include('../php/head.php');
     </div>
     <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
     <div class="metier_container">
-      <h2 class="medium_title">Chef de projet web
+      <h2 class="medium_title">Chef de projet multimédia
       </h2>
       <em>En quoi consiste ce métier ?</em>
-      <p class="info_metier">Le chef de projet web est un métier très varié et peut prendre différentes formes selon
+      <p class="info_metier">Le chef de projet multimédia est un métier très varié et peut prendre différentes formes selon
         l’environnement dans lequel il est exercé. Le métier de chef de projet peut être un chef de projet
         <i>
           e-commerce</i>,<i>
@@ -158,12 +158,12 @@ include('../php/head.php');
       <p class="info_metier">
         Le salaire est d’environ
         <span style="color:red;">2 200</span>
-        brut par mois pour un chef de projet web débutant salarié.
+        brut par mois pour un chef de projet multimédia débutant salarié.
         <br>
         Par ailleurs, la rémunération évolue rapidement.
       </p>
       <em>Le niveau d'étude:</em>
-      <span class="info_metier">Pour exercer le métier de chef de projet web, il faut minimum un bac +5. Il y a
+      <span class="info_metier">Pour exercer le métier de chef de projet multimédia, il faut minimum un bac +5. Il y a
         différents parcours possibles. Nous vous proposons un parcours réalisable en effectuant un DUT MMI :</span>
       <div class="clear">
         <ul class="niv_etude">
