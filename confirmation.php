@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <h1>Merci de nous avoir envoyé un message </h1>
+    <h1>Merci de nous avoir envoyé un message ! </h1>
     <a href="./accueil.php"> 🚀 sur la page l'accueil</a>
     <img src=" ./images/icon.png" alt="">
 </body>

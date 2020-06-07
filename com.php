@@ -199,7 +199,7 @@
 
                 <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                 <!-- je met le bouton envoie-->
-                <input type="submit" value="Envoyer">
+                <input type="button" onclick='window.location.href="./confirmation.php?success=true";' value="Envoyer">
 
             </form>
         </div>
@@ -283,7 +283,7 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
     //j'execute la requete//
     $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
     // $requete = null;
-    header('Location: ../confirmation.php?success=true');
-    exit;
+    //header('Location: ../confirmation.php?success=true');
+    //exit;
 }
 ?>
