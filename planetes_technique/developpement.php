@@ -30,7 +30,7 @@ include('../php/head.php');
     <div class="btn_down"> <a href="#premiere_page"> <img src="../images/arrow.png" class="down_arrow down " alt="page suivante"></a></div>
   </section>
   <!-- PREMIER METIER------------------------------------------------------------------------------------>
-  <section class="sect-seconde_metier grid-wrap">
+  <section id="premiere_page" class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
       <video controls="controls">
@@ -111,7 +111,7 @@ include('../php/head.php');
   include('../php/transition_1.php');
   ?>
   <!-- DEUXIEME METIER --------------------------------------------------------------------------------->
-  <section id="premiere_page" class="sect-temoignage grid-wrap">
+  <section id="seconde_page" class="sect-temoignage grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <!--<div class="video_temoignage">
       <video controls="controls">
