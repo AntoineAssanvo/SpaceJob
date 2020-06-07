@@ -56,8 +56,7 @@
         <h2>Listes des métiers présentés</h2>
         <table>
             <tr>
-                <!--- modifie ici aussi technique pas dev à faire sur les deux  autres page -->
-                <th>Développement</th>
+                <th>Technique</th>
             </tr>
             <tr>
                 <td class="definx">Réseaux</td>
@@ -70,14 +69,23 @@
                         réseaux</a></td>
             </tr>
             <tr>
-                <td></td>
+                <td class="definx">Web</td>
                 <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
                         Web</a></td>
             </tr>
             <tr>
-                <td class="definx">Web</td>
+                <td></td>
                 <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
                         Web</a></td>
+            </tr>
+            <tr>
+                <td class="definx">Graphisme</td>
+                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
+                        Designer</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
             </tr>
 
         </table>
@@ -103,16 +111,6 @@
             <tr>
                 <td></td>
                 <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
-            </tr>
-            <!-- A MODIFIER PAS LA BONNE PLACE ET DE NOM--------------------->
-            <tr>
-                <td class="definx">Graphisme</td>
-                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
-                        Designer</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
             </tr>
         </table>
     </div>
