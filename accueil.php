@@ -52,68 +52,68 @@
 
         <!--tableau des métiers-->
         <div id="definX" class="definition scale-up-ver-center">
-        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
-        <h2>Listes des métiers présentés</h2>
-        <table>
-            <tr>
-                <th>Technique</th>
-            </tr>
-            <tr>
-                <td class="definx">Réseaux</td>
-                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
-                        réseaux</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
-                        réseaux</a></td>
-            </tr>
-            <tr>
-                <td class="definx">Web</td>
-                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
-                        Web</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
-                        Web</a></td>
-            </tr>
-            <tr>
-                <td class="definx">Graphisme</td>
-                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
-                        Designer</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
-            </tr>
+            <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+            <h2>Listes des métiers présentés</h2>
+            <table>
+                <tr>
+                    <th>Technique</th>
+                </tr>
+                <tr>
+                    <td class="definx">Réseaux</td>
+                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
+                            réseaux</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
+                            réseaux</a></td>
+                </tr>
+                <tr>
+                    <td class="definx">Web</td>
+                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
+                            Web</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
+                            Web</a></td>
+                </tr>
+                <tr>
+                    <td class="definx">Graphisme</td>
+                    <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
+                            Designer</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/artistique.php#seconde_page">Graphiste</a></td>
+                </tr>
 
-        </table>
+            </table>
 
-        <table>
-            <tr>
-                <th>Communication</th>
-            </tr>
-            <tr>
-                <td class="definx">Marketing</td>
-                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
-                        Manager</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
-                        Projet Multimedia</a></td>
-            </tr>
-            <tr>
-                <td class="definx">Communication</td>
-                <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
-            </tr>
-        </table>
-    </div>
+            <table>
+                <tr>
+                    <th>Communication</th>
+                </tr>
+                <tr>
+                    <td class="definx">Marketing</td>
+                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
+                            Manager</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef de
+                            Projet Multimedia</a></td>
+                </tr>
+                <tr>
+                    <td class="definx">Communication</td>
+                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Entrepreneur Web</a></td>
+                </tr>
+            </table>
+        </div>
 
         <!--a prpopos de nous-->
         <div id="definY" class="definition">
@@ -209,7 +209,7 @@
 
                     <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                     <!-- je met le bouton envoie avec le submit les données sont recu mais la redirection ne fonctionne pas, avec button la redirection fonctionne mais je ne vois pas les données rentre2 dans la base, j'ai essayé de mettre button en submit avec js mais  cela ne fonctionne pas -->
-                    <input type="submit" id="buttonid" onclick='document.location.href=" ./confirmation.php?"' value="Envoyer">
+                    <input type="submit"' value="Envoyer">
                 </form>
             </div>
 
@@ -281,7 +281,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('./formulaire /lie/connect.php');
+include('../formulaire/connect.php');
 
 
 // je met une condition//
