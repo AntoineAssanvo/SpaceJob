@@ -203,7 +203,7 @@
 
 
                     <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
-                    <!-- je met le bouton envoie-->
+                    <!-- je met le bouton envoie avec le submit les données sont recu mais la redirection ne fonctionne pas, avec button la redirection fonctionne mais je ne vois pas les données rentre2 dans la base, j'ai essayé de mettre button en submit avec js mais  cela ne fonctionne pas -->
                     <input type="submit" id="buttonid" onclick='document.location.href=" ./confirmation.php?"' value="Envoyer">
                 </form>
             </div>
