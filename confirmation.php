@@ -14,6 +14,7 @@
 <body>
     <h1>Merci de nous avoir envoyé un message </h1>
     <a href="./accueil.php"> Retourner à l'accueil</a>
+    <img src=" ./images/icon.png" alt="">
 </body>
 
 </html>

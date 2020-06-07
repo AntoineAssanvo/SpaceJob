@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    height: 100vh;
     margin: 0;
     padding: 0%;
     background-color: rgb(27, 4, 46);
@@ -22,15 +23,27 @@ body {
 }
 
 body h1 {
-    margin: auto;
+    margin: 15rem auto 15px auto;
+    color: white;
+    align-self: center;
 }
 
 body a {
+
     color: #E94E1B;
-    font-size: 1.8vw;
+    font-size: 1vw;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     padding: 20px;
-    border: 1px;
+    border: 1px solid #E94E1B;
     background: transparent;
+    margin: 15px auto auto auto;
+    align-self: center;
+}
+
+body>img {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: rotate(-50, -50);
 }

@@ -186,6 +186,7 @@
         <div id="definZ" class="definition wrapper">
             <div class="contact-form">
                 <form method="POST">
+                    <!-- Method POST de manière à ne pas afficher les données dans la barre url -->
                     <input type="text" name='contact_name' placeholder="Comment t'appelles-tu ?" class="input" />
                     <input type="text" name='age' placeholder="quel est ton age ???" class="input" />
                     <input type="email" name='mail' placeholder="Donne nous ton email" class="input">
@@ -293,7 +294,7 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
     //j'execute la requete//
     $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
     $requete = null;
-    //header('Location: ./redirection/confirmation.php?success=true');
-    //exit;
+    header('Location: ../confirmation.php?success=true');
+    exit;
 }
 ?>
