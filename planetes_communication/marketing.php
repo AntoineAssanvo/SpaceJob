@@ -30,10 +30,11 @@ include('../php/head.php');
   <section id="premiere_page" class="sect-temoignage grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
-      <video controls="controls">
+      <iframe src="https://www.youtube.com/watch?v=Oe0k1nr7-gA&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=2"> </iframe>
+      <!--<video controls="controls">
         <source src="../videos/community_manager.mp4" type="video/mp4">
         <source src="../videos/community_manager.webmhd.webm" type="video/webmhd">
-        <source src="../videos/community_manager.webmsd.webm" type="video/webmsd">
+        <source src="../videos/community_manager.webmsd.webm" type="video/webmsd">-->
       </video>
     </div>
     <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
@@ -108,9 +109,12 @@ include('../php/head.php');
     </div>
     <div class="contact_temoin">
       <h2 class="lil_title">
-        Le contacter:</h2>
+        Les liens:</h2>
       <a href="https://www.linkedin.com/in/valentin-rehheiser-b74828164/ " class="links" target="_blank">
         <i class='fab fa-linkedin-in' style='font-size:24px'></i>
+      </a>
+      <a href="https://www.youtube.com/watch?v=Oe0k1nr7-gA&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=2" class="links" target="_blank">
+        <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i>
       </a>
 
     </div>
@@ -125,10 +129,7 @@ include('../php/head.php');
   <section id="seconde_page" class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
-      <video controls="controls" width="400" height="300">
-        <source src="../videos/chef-de-projet.mp4" type="video/mp4">
-
-      </video>
+      <iframe src="https://www.youtube.com/watch?v=5R6QY8T-xgw"> </iframe>
     </div>
     <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
     <div class="metier_container">

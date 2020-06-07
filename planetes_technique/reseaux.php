@@ -30,12 +30,7 @@ include('../php/head.php');
     <section id="premiere_page" class="sect-temoignage grid-wrap">
         <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
         <div class="video_temoignage">
-            <video controls="controls">
-                <source src="../videos/Architecte_reseau.mp4" type="video/mp4">
-                <source src="videos/edit_end.webm" type="video/webm">
-            </video>
-        </div>
-        <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
+            <iframe src="https://www.youtube.com/watch?v=mktAb8DgfMg"> </iframe> </div> <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
         <div class="metier_container">
             <h2 class="medium_title"><span style='color:rgb(27, 63, 226);'>Architecte réseaux</span>
             </h2>
@@ -109,8 +104,8 @@ include('../php/head.php');
     <section id="seconde_page" class="sect-seconde_metier grid-wrap">
         <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
         <div class="video_temoignage">
-            <video controls="controls" width="400" height="300">
-                <source src="../videos/Administrateur_Systeme.mp4" type="video/mp4">
+            <iframe src="https://www.youtube.com/watch?v=PCBgHgB9vbY">
+            </iframe>
 
             </video>
         </div>

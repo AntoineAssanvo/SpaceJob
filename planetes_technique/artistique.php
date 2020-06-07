@@ -31,55 +31,57 @@ include('../php/head.php');
   <section id="premiere_page" class="sect-temoignage grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
-      <video controls="controls">
+      <iframe src="https://www.youtube.com/watch?v=xCyysHNSUdc&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=5">
+      </iframe>
+      <!--<video controls="controls">
         <source src="../videos/montiondesigner.mp4" type="video/mp4">
         <source src="" type="video/webm">
       </video>
-    </div>
-    <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
-    <div class="metier_container">
-      <h2 class="medium_title"> <span style='color: #b18867;'>Motion designer</span>
-      </h2>
-      <em>En quoi consiste ce métier ?</em>
-      <p class="info_metier">
-        Le motion designer se charge de la création de contenus interactifs 2D ou 3D. Il doit poursuivre l’idée du
-        client et ses exigences dans un délai donné.
-        Pour cela, le motion designer élabore différents croquis sur l'univers à choisir, puis les propose pour faire
-        valider son concept. On parle de moodboard, il doit donc maîtriser parfaitement les logiciels de graphisme et
-        d’infographies(PAO).
-      </p>
-      <p class="info_metier"> Le motion designer utilise de nombreuses techniques qui lui permettent de pouvoir exercer
-        dans de nombreux domaines : le cinéma, publicité, jeux vidéo ou les entreprises web.
-        C’est pourquoi, toutes les créations numériques de l’entreprise peuvent passer par lui.
-        L ’objectif de cette profession de la communication visuelle est de transmettre un message fort à travers des
-        animations 3D. <br>La créativité est indispensable pour tout professionnel du graphisme, ils la cultivent en
-        travaillant et en s’inspirant du travail d’autres graphistes.
-        Il doit également savoir communiquer pour convaincre le client de ces choix par des phrases pertinentes et des
-        idées structurées.
-        </br>
+    </div>-->
+      <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
+      <div class="metier_container">
+        <h2 class="medium_title"> <span style='color: #b18867;'>Motion designer</span>
+        </h2>
+        <em>En quoi consiste ce métier ?</em>
+        <p class="info_metier">
+          Le motion designer se charge de la création de contenus interactifs 2D ou 3D. Il doit poursuivre l’idée du
+          client et ses exigences dans un délai donné.
+          Pour cela, le motion designer élabore différents croquis sur l'univers à choisir, puis les propose pour faire
+          valider son concept. On parle de moodboard, il doit donc maîtriser parfaitement les logiciels de graphisme et
+          d’infographies(PAO).
+        </p>
+        <p class="info_metier"> Le motion designer utilise de nombreuses techniques qui lui permettent de pouvoir exercer
+          dans de nombreux domaines : le cinéma, publicité, jeux vidéo ou les entreprises web.
+          C’est pourquoi, toutes les créations numériques de l’entreprise peuvent passer par lui.
+          L ’objectif de cette profession de la communication visuelle est de transmettre un message fort à travers des
+          animations 3D. <br>La créativité est indispensable pour tout professionnel du graphisme, ils la cultivent en
+          travaillant et en s’inspirant du travail d’autres graphistes.
+          Il doit également savoir communiquer pour convaincre le client de ces choix par des phrases pertinentes et des
+          idées structurées.
+          </br>
 
-      </p>
+        </p>
 
-      <em>Combien gagne t'il ?</em>
-      <p class="info_metier">L’échelle de salaires s’étale sur une grande amplitude mais il faut compter aux alentours
-        de <span style="color: #ff0000;">2 000</span> euros bruts par mois pour un motion designer débutant et <span style="color:#ff0000;">4 000 - 5 500</span> euros pour un senior.</p>
-      <em>Le niveau d'étude:</em>
-      <span class="info_metier">Les cursus universitaires permettant d’accéder aux métiers du motion design sont très
-        rares, il faut
-        souvent passer par des établissements privés.</span>
-      <span class="info_metier">Les métiers du motion design sont accessibles après un bac + 2 puis par le biais
-        d’écoles spécialisées
-        en graphisme:</span>
-      <ul class="niv_etude">
+        <em>Combien gagne t'il ?</em>
+        <p class="info_metier">L’échelle de salaires s’étale sur une grande amplitude mais il faut compter aux alentours
+          de <span style="color: #ff0000;">2 000</span> euros bruts par mois pour un motion designer débutant et <span style="color:#ff0000;">4 000 - 5 500</span> euros pour un senior.</p>
+        <em>Le niveau d'étude:</em>
+        <span class="info_metier">Les cursus universitaires permettant d’accéder aux métiers du motion design sont très
+          rares, il faut
+          souvent passer par des établissements privés.</span>
+        <span class="info_metier">Les métiers du motion design sont accessibles après un bac + 2 puis par le biais
+          d’écoles spécialisées
+          en graphisme:</span>
+        <ul class="niv_etude">
 
-        <div class="clear">
-          <li>
-            Gobelins
-          </li>
-          <li>L'IMAC
-          </li>
-      </ul>
-    </div>
+          <div class="clear">
+            <li>
+              Gobelins
+            </li>
+            <li>L'IMAC
+            </li>
+        </ul>
+      </div>
 
     </div>
     <!-- PARTIE INFORMATION TEMOIN  1------------------------------------------------------------------------------------>
@@ -95,13 +97,15 @@ include('../php/head.php');
     </div>
     <div class="contact_temoin">
       <h2 class="lil_title">
-        Le contacter:</h2>
+        Les liens:</h2>
       <a href="https://www.linkedin.com/in/marc-antoine-f-77985a10b/" class="links" target="_blank">
         <i class='fab fa-linkedin-in' style='font-size:24px'></i>
       </a>
       <a href="https://twitter.com/Yelo_Forellow" class="links" target="_blank">
         <i class='fab fa-twitter' style='font-size:24px'></i>
       </a>
+      <a href="https://www.youtube.com/watch?v=gjronPte5Mw&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=6" class="links" target="_blank">
+        <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i></a>
     </div>
 
   </section>
@@ -113,10 +117,12 @@ include('../php/head.php');
   <section id="seconde_page" class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
-      <video controls="controls" width="400" height="300">
+      <iframe src="https://www.youtube.com/watch?v=xCyysHNSUdc&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=5">
+      </iframe>
+      <!--<video controls="controls" width="400" height="300">
         <source src="../videos/graphiste.mp4" type="video/mp4">
         <source src="../videos/graphiste.webmhd.webm" type="video/webmhd">
-        <source src="../videos/graphiste.webmsd.webm" type="video/webmsd">
+        <source src="../videos/graphiste.webmsd.webm" type="video/webmsd">-->
       </video>
     </div>
     <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
@@ -177,10 +183,12 @@ include('../php/head.php');
     </div>
     <div class="contact_temoin">
       <h2 class="lil_title">
-        La contacter:</h2>
+        Les liens:</h2>
       <a href="https://www.linkedin.com/in/elo%C3%AFse-marty-986851151/" class="links" target="_blank">
         <i class='fab fa-linkedin-in' style='font-size:24px'></i>
       </a>
+      <a href="https://www.youtube.com/watch?v=xCyysHNSUdc&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=5" class="links" target="_blank">
+        <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i></a>
 
     </div>
   </section>

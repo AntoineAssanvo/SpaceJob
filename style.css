@@ -266,6 +266,11 @@ section {
 
 }
 
+.video_temoignage iframe {
+    width: 41vw;
+    height: 40vh;
+}
+
 .video_temoignage video {
     width: 41vw;
     height: 40vh;

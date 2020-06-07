@@ -40,10 +40,7 @@ include('../php/head.php');
     <section id="premiere_page" class="sect-temoignage grid-wrap">
         <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
         <div class="video_temoignage">
-            <video controls="controls">
-                <source src="../videos/seo.mp4" type="video/mp4">
-
-            </video>
+            <iframe src="https://www.youtube.com/watch?v=zstv44N5qj4&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=2&t=0s"> </iframe>
         </div>
         <!-- PARTIE INFO METIER 1------------------------------------------------------------------------------------>
         <div class="metier_container">
@@ -114,12 +111,15 @@ include('../php/head.php');
         </div>
         <div class="contact_temoin">
             <h2 class="lil_title">
-                Le contacter:</h2>
+                Les liens:</h2>
             <a href="https://www.linkedin.com/in/linda-schell/" class="links" target="_blank">
                 <i class='fab fa-linkedin-in' style='font-size:24px'></i>
             </a>
             <a href="https://twitter.com/lindaschell_ASC" class="links" target="_blank">
                 <i class='fab fa-twitter' style='font-size:24px'></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=zstv44N5qj4&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=2&t=0s" class="links" target="_blank">
+                <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i>
             </a>
         </div>
 
@@ -132,11 +132,12 @@ include('../php/head.php');
     <section id="seconde_page" class="sect-seconde_metier grid-wrap">
         <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
         <div class="video_temoignage">
-            <video controls="controls" width="400" height="300">
+            <iframe src="https://www.youtube.com/watch?v=2vimkniOeU0&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=4"> </iframe>
+            <!-- <video controls="controls" width="400" height="300">
                 <source src="../videos/entrepreneur_web.mp4" type="video/mp4">
                 <source src="videos/entrepreneur_web.webmhd.webm" type="video/webmhd">
                 <source src="videos/entrepreneur_web.webmsd.webm" type="video/webmsd">
-            </video>
+            </video>-->
         </div>
         <!-- PARTIE INFO METIER 2------------------------------------------------------------------------------------>
         <div class="metier_container">
@@ -219,12 +220,15 @@ include('../php/head.php');
         </div>
         <div class="contact_temoin">
             <h2 class="lil_title">
-                Le contacter:</h2>
+                Les liens:</h2>
             <a href="https://www.linkedin.com/in/noblejonathan/" class="links" target="_blank">
                 <i class='fab fa-linkedin-in' style='font-size:24px'></i>
             </a>
             <a href="https://twitter.com/Gafisme" class="links" target="_blank">
                 <i class="fab fa-twitter" style='font-size:24px'></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=2vimkniOeU0&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=4" class="links" target="_blank">
+                <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i>
             </a>
         </div>
 

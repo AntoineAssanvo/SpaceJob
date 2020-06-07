@@ -14,7 +14,7 @@
 
 <body>
     <div class="accueil">
-        <!-- MODIFI LES PLANETES, ARTISTIQUE DOIT AVOIR LA MEME COULEURS QUE LE FOND-->
+
         <a href="planetes_technique/developpement.php">
             <div class="left"> </div>
         </a>
@@ -31,7 +31,7 @@
         <img class="planete2" id="bleuBig" src="./images/planète8cut.png"></a>
 
         <img class="planete3" id="MoonLil" src="./images/planète5.png">
-        <a href="planetes_technique/artistique.php"><img class="terre " id="terreUp" src="./images/planete 6 et 7.png"></a>
+        <a href="planetes_technique/artistique.php"><img class="terre " id="terreUp" src="./images/planete_duo.png"></a>
 
 
         <a class="retour" href="index.php#suite">Retour</a>
@@ -133,7 +133,7 @@
             </tr>
             <tr>
                 <td>aassanv1@gmail.com</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~aassanvo/Cv-numerique/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -149,7 +149,7 @@
             </tr>
             <tr>
                 <td>Camille.dahan@live.fr</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~cdahan/cv-numerique/cv/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -165,7 +165,7 @@
             </tr>
             <tr>
                 <td>Lucastou@me.com</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~lfassel/cv/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -177,11 +177,11 @@
             </tr>
             <tr>
                 <td></td>
-                <td>Accéder à son</td>
+
             </tr>
             <tr>
                 <td>hugoferrerravet@gmail.com</td>
-                <td>CV numérique</td>
+
             </tr>
         </table>
     </div>
@@ -242,7 +242,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('../formulaire/connect.php');
+include('./formulaire/connect.php');
 
 
 // je met une condition//

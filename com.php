@@ -126,7 +126,7 @@
             </tr>
             <tr>
                 <td>aassanv1@gmail.com</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~aassanvo/Cv-numerique/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -142,7 +142,7 @@
             </tr>
             <tr>
                 <td>Camille.dahan@live.fr</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~cdahan/cv-numerique/cv/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -158,7 +158,7 @@
             </tr>
             <tr>
                 <td>Lucastou@me.com</td>
-                <td>CV numérique</td>
+                <td> <a style="color: red;" target="_blank" href="https://etudiant.u-pem.fr/~lfassel/cv/"> CV numérique</a></td>
             </tr>
         </table>
         <table>
@@ -170,11 +170,11 @@
             </tr>
             <tr>
                 <td></td>
-                <td>Accéder à son</td>
+
             </tr>
             <tr>
                 <td>hugoferrerravet@gmail.com</td>
-                <td>CV numérique</td>
+
             </tr>
         </table>
     </div>
@@ -238,7 +238,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('../formulaire/connect.php');
+include('./formulaire/connect.php');
 
 
 // je met une condition//

@@ -33,11 +33,13 @@ include('../php/head.php');
   <section id="premiere_page" class="sect-seconde_metier grid-wrap">
     <!-- PARTIE VIDEO------------------------------------------------------------------------------------>
     <div class="video_temoignage">
-      <video controls="controls">
+      <iframe src="https://www.youtube.com/watch?v=5T7mfE7-ttk&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=3controls=0">
+      </iframe>
+      <!--<video controls="controls">
         <source src="../videos/développeur.mp4" type="video/mp4">
         <source src="../videos/développeur.webmhd.webm" type="video/webm">
         <source src="../videos/développeur.webmsd.webm" type="video/webmsd">
-      </video>
+      </video>-->
     </div>
     <!-- PARTIE TEXTE------------------------------------------------------------------------------------>
     <div class="metier_container">
@@ -99,10 +101,12 @@ include('../php/head.php');
     </div>
     <div class="contact_temoin">
       <h2 class="lil_title">
-        Le contacter:</h2>
+        Les liens:</h2>
       <a href="https://www.linkedin.com/in/jthomias/" class="links" target="_blank">
         <i class='fab fa-linkedin-in' style='font-size:24px'></i>
       </a>
+      <a href="https://www.youtube.com/watch?v=5T7mfE7-ttk&list=PLE1GuV9oxhyRNsQqz0MMECTd6DKSdkIgc&index=3" class="links" target="_blank">
+        <i style="color: red;" class='fab fa-youtube' style='font-size:24px'></i></a>
 
     </div>
   </section>
