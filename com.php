@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Communication</title>
-    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="icon" type="image/png" href="./images/icon.png" />
     <link rel="stylesheet" href="SJ2.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="accueil.php">
+    <link href="index.php">
 
 </head>
 
@@ -18,15 +18,15 @@
         <a href="planetes_communication/marketing.php">
             <div class="left"> </div>
         </a>
-        <a href="planetes_communication/marketing.php"><img class="web scale-up-hor-left" src="images/market.png"></a>
-        <a href="planetes_communication/communication.php"><img class="Communication scale-up-hor-left" src="images/com.png"></a>
-        <img class="planete1" id="rougeLeft" src="images/planète1.png"></a>
-        <img class="planete2" id="orangeBig" src="images/planète2cut.png">
-        <a href="planetes_communication/communication.php"><img class="planete3" id="roseLil" src="images/planète3.png"></a>
-        <img class="saturne" id="saturneUp" src="images/saturne.png">
+        <a href="planetes_communication/marketing.php"><img class="web scale-up-hor-left" src="./images/market.png"></a>
+        <a href="planetes_communication/communication.php"><img class="Communication scale-up-hor-left" src="./images/com.png"></a>
+        <img class="planete1" id="rougeLeft" src="./images/planète1.png"></a>
+        <img class="planete2" id="orangeBig" src="./images/planète2cut.png">
+        <a href="planetes_communication/communication.php"><img class="planete3" id="roseLil" src="./images/planète3.png"></a>
+        <img class="saturne" id="saturneUp" src="./images/saturne.png">
 
 
-        <a class="retour" href="accueil.php#suite">Retour</a>
+        <a class="retour" href="index.php#suite">Retour</a>
 
 
 
@@ -37,15 +37,15 @@
         <a href="#definZ" id="identité">QUI ÊTES<br>VOUS?</a>
         <a href="https://twitter.com/SpaceJobs1" id="insta">INSTAGRAM</a>
 
-        <img class="cockpit" src="images/cockpit.png">
-        <img class="sun2 float" src="images/soleil2.png">
+        <img class="cockpit" src="./images/cockpit.png">
+        <img class="sun2 float" src="./images/soleil2.png">
     </div>
 
 
 
     <!--tableau des métiers-->
     <div id="definX" class="definition scale-up-ver-center">
-        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="./images/croix.png"></a></div>
         <h2>Listes des métiers présentés</h2>
         <table>
             <tr>
@@ -111,14 +111,14 @@
     <!--a prpopos de nous-->
     <!-- A MODIFIER DEFINIT LES ROLES--------------------->
     <div id="definY" class="definition">
-        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="./images/croix.png"></a></div>
         <h2>A propos des membres du projet</h2>
         <table>
             <tr>
                 <th>Antoine ASSANVO</th>
             </tr>
             <tr>
-                <th>Rôle dans le projet</th>
+                <th>Chef de projet/Développeur</th>
             </tr>
             <tr>
                 <td></td>
@@ -134,7 +134,7 @@
                 <th>Camille DAHAN</th>
             </tr>
             <tr>
-                <th>Rôle dans le projet</th>
+                <th>Communicante</th>
             </tr>
             <tr>
                 <td></td>
@@ -150,7 +150,7 @@
                 <th>Lucas FASSEL</th>
             </tr>
             <tr>
-                <th>Rôle dans le projet</th>
+                <th>Graphiste/Développeur</th>
             </tr>
             <tr>
                 <td></td>
@@ -166,7 +166,7 @@
                 <th>Hugo RAVET</th>
             </tr>
             <tr>
-                <th>Rôle dans le projet</th>
+                <th>Designer</th>
             </tr>
             <tr>
                 <td></td>
@@ -180,7 +180,7 @@
     </div>
     <!--qui etes vous?-->
     <div id="definZ" class="definition wrapper">
-        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="./images/croix.png"></a></div>
         <div class="contact-form">
             <form method="POST">
                 <input type="text" name='contact_name' placeholder="Comment t'appelles-tu ?" class="input" />
@@ -205,27 +205,27 @@
         </div>
     </div>
     <!--quoi de neuf?-->
-    
+
     <div id="definW" class="definition wrapper">
-    <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
-            <h2>Quoi de neuf sur le site?</h2>
-            <table>
-                <tr>
-                    <th>Dèrenières mise à jour</th>
-                    <td>07/06/2020</td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <th>mise en ligne</th>
-                    <td>arrivée de Space Jobs</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Nous vous souhaitons la bienvenue sur Space Jobs et nous sommes<br>
+        <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
+        <h2>Quoi de neuf sur le site?</h2>
+        <table>
+            <tr>
+                <th>Dèrenières mise à jour</th>
+                <td>07/06/2020</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>mise en ligne</th>
+                <td>arrivée de Space Jobs</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Nous vous souhaitons la bienvenue sur Space Jobs et nous sommes<br>
                     très heureux d'enfin montrer ce projet au grand jour.</td>
-                </tr>
-            </table>    
+            </tr>
+        </table>
     </div>
 
 
@@ -238,7 +238,7 @@
 // je m'informe si il y'a une erreur
 ini_set('display_errors', 'on');
 //je me connecet depuis la base//
-include('./formulaire /lie/connect.php');
+include('../formulaire/connect.php');
 
 
 // je met une condition//
