@@ -57,20 +57,20 @@
                 </tr>
                 <tr>
                     <td class="definx">Réseaux</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.html#premiere_page">Architecte
+                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
                             réseaux</a></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.html#seconde_page">Administrateur réseaux</a></td>
+                    <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur réseaux</a></td>
                 </tr>
                 <tr>
                     <td class="definx">Web</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.html#premiere_page">Concepteur Web</a></td>
+                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur Web</a></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="definx"><a class="linke" href="planetes_technique/developpement.html#seconde_page">Developpeur Web</a></td>
+                    <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur Web</a></td>
                 </tr>
             </table>
 
@@ -84,25 +84,25 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.html#seconde_page">Chef
+                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Chef
                             de Projet Web</a></td>
                 </tr>
                 <tr>
                     <td class="definx">Communication</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.html#premiere_page">Consultant SEO</a></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/communication.html#seconde_page">Chef de Projet Web</a></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef de Projet Web</a></td>
                 </tr>
                 <tr>
                     <td class="definx">Graphisme</td>
-                    <td class="definx"><a class="linke" href="planetes_technique/artistique.html#premiere_page">Motion
+                    <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premiere_page">Motion
                             Designer</a></td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.html#seconde_page">Web
+                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#seconde_page">Web
                             Designer</a></td>
                 </tr>
             </table>
