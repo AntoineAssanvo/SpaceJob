@@ -19,11 +19,10 @@
         </a>
         <a href="planetes_communication/marketing.html"><img class="web scale-up-hor-left" src="images/market.png"></a>
         <a href="planetes_communication/communication.html"><img class="Communication scale-up-hor-left" src="images/com.png"></a>
-        <a href="planetes_technique/artistique.html"><img class="graphisme scale-up-hor-left" src="images/graphisme.png"></a>
         <img class="planete1" id="rougeLeft" src="images/planète1.png"></a>
         <img class="planete2" id="orangeBig" src="images/planète2cut.png">
         <a href="planetes_communication/communication.html"><img class="planete3" id="roseLil" src="images/planète3.png"></a>
-        <a href="planetes_technique/artistique.html"><img class="saturne" id="saturneUp" src="images/saturne.png"></a>
+        <img class="saturne" id="saturneUp" src="images/saturne.png">
 
 
         <a class="retour" href="accueil.html#suite">Retour</a>

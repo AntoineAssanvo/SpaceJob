@@ -26,10 +26,11 @@
         <img class="reseaux scale-up-hor-right " src="images/réseaux.png"></a>
         <img class="planete1" id="vertLeft" src="images/planète4.png"></a>
         <a href="planetes_technique/developpement.php"><img class="web scale-up-hor-left" src="images/web.png"></a>
+        <a href="planetes_technique/artistique.html"><img class="graphisme scale-up-hor-left" src="images/graphisme.png"></a>
         <img class="planete2" id="bleuBig" src="images/planète8cut.png"></a>
-        <a href="#"><img class="dev scale-up-hor-right " src="images/développement.png"></a>
+        
         <img class="planete3" id="MoonLil" src="images/planète5.png">
-        <a href="#"><img class="saturne " id="terreUp" src="images/terre.png"></a>
+        <a href="planetes_technique/artistique.html"><img class="terre " id="terreUp" src="images/terre.png"></a>
 
 
         <a class="retour" href="accueil.php#suite">Retour</a>
