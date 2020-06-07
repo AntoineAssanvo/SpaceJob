@@ -164,11 +164,11 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Accéder à son</td>
+                    <td><a class="linke" href="https://etudiant.u-pem.fr/~lfassel/cv/">Accéder à son</a></td>
                 </tr>
                 <tr>
                     <td>Lucastou@me.com</td>
-                    <td>CV numérique</td>
+                    <td><a class="linke" href="https://etudiant.u-pem.fr/~lfassel/cv/">CV numérique</a></td>
                 </tr>
             </table>
             <table>
