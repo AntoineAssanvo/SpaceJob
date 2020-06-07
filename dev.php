@@ -14,6 +14,7 @@
 
 <body>
     <div class="accueil">
+        <!-- MODIFI LES PLANETES, ARTISTIQUE DOIT AVOIR LA MEME COULEURS QUE LE FOND-->
         <a href="planetes_technique/developpement.php">
             <div class="left"> </div>
         </a>
@@ -26,11 +27,11 @@
         <img class="reseaux scale-up-hor-right " src="images/réseaux.png"></a>
         <img class="planete1" id="vertLeft" src="images/planète4.png"></a>
         <a href="planetes_technique/developpement.php"><img class="web scale-up-hor-left" src="images/web.png"></a>
-        <a href="planetes_technique/artistique.html"><img class="graphisme scale-up-hor-left" src="images/graphisme.png"></a>
+        <a href="planetes_technique/artistique.php"><img class="graphisme scale-up-hor-left" src="images/graphisme.png"></a>
         <img class="planete2" id="bleuBig" src="images/planète8cut.png"></a>
-        
+
         <img class="planete3" id="MoonLil" src="images/planète5.png">
-        <a href="planetes_technique/artistique.html"><img class="terre " id="terreUp" src="images/terre.png"></a>
+        <a href="planetes_technique/artistique.phpl"><img class="terre " id="terreUp" src="images/terre.png"></a>
 
 
         <a class="retour" href="accueil.php#suite">Retour</a>
@@ -55,7 +56,7 @@
         <h2>Listes des métiers présentés</h2>
         <table>
             <tr>
-                <th>Développement</th>
+                <th>Technique</th>
             </tr>
             <tr>
                 <td class="definx">Réseaux</td>
@@ -69,15 +70,16 @@
                 </td>
             </tr>
             <tr>
-                <td class="definx">Web</td>
-                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
-                        Web</a></td>
-            </tr>
-            <tr>
                 <td></td>
                 <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
                         Web</a></td>
             </tr>
+            <tr>
+                <td class="definx">Web</td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
+                        Web</a></td>
+            </tr>
+
         </table>
 
         <table>
@@ -103,8 +105,9 @@
                 <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef
                         de Projet Web</a></td>
             </tr>
+            <!-- A MODIFIER C'EST PAS LA BONNE PLACE--------------------->
             <tr>
-                <td class="definx">Graphisme</td>
+                <td class="definx">Artistique</td>
                 <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premiere_page">Motion
                         Designer</a></td>
             </tr>
@@ -117,6 +120,7 @@
     </div>
 
     <!--a prpopos de nous-->
+    <!-- A MODIFIER DEFINIT LES ROLES--------------------->
     <div id="definY" class="definition">
         <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
         <h2>A propos des membres du projet</h2>
@@ -212,6 +216,7 @@
         </div>
     </div>
     <!--quoi de neuf?-->
+    <!-- A MODIFIER--------------------->
     <div id="definW" class="definition">
         <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
         <h2>Quoi de neuf sur le site?</h2>

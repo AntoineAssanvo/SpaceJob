@@ -7,7 +7,7 @@ include('../php/head.php');
 
 <body>
   <!-- PAGE D'ACCUEIL------------------------------------------------------------------------------------>
-  <section id="accueil" class="sect-bg grid-wrap" style="background: url('../images/page_img/fond_reseaux.png'); background-attachment: scroll;
+  <section id="accueil" class="sect-bg grid-wrap" style="background: url('../images/page_img/fond_artiste.png'); background-attachment: scroll;
   background-repeat: no-repeat; background-size: 100vw;">
     <h1 class="main-title">Planète Artistique</h1>
 

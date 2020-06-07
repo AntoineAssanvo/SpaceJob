@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    < <meta charset="UTF-8">
-        <title>🚀 Envoie confirmé</title>
-        <link rel="icon" type="image/png" href="images/icon.png" />
-        <link rel="stylesheet" href="./redirection/style_c.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <title>Envoie validé</title>
+    <meta charset="UTF-8">
+    <title>🚀 Envoie confirmé</title>
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" href="style_c.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 </head>
 
 <body>

@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0%;
     background-color: rgb(27, 4, 46);
-    background: url("../images/fond_satin.png");
+    background: url("./images/fond_satin.png");
 
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -41,9 +41,10 @@ body a {
     align-self: center;
 }
 
-body>img {
+body img {
+    height: 40vh;
     position: absolute;
     left: 40%;
-    top: 50%;
+    top: 55%;
     transform: rotate(-50, -50);
 }

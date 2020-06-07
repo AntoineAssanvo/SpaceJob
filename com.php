@@ -8,24 +8,25 @@
     <link rel="stylesheet" href="SJ2.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="accueil.html">
+    <link href="accueil.php">
 
 </head>
 
 <body>
     <div class="accueil">
-        <a href="planetes_communication/marketing.html">
+        <!-- SUPPRIME DES PLANETES ET MET ARTISTIQUE DANS DEV -->
+        <a href="planetes_communication/marketing.php">
             <div class="left"> </div>
         </a>
-        <a href="planetes_communication/marketing.html"><img class="web scale-up-hor-left" src="images/market.png"></a>
-        <a href="planetes_communication/communication.html"><img class="Communication scale-up-hor-left" src="images/com.png"></a>
+        <a href="planetes_communication/marketing.php"><img class="web scale-up-hor-left" src="images/market.png"></a>
+        <a href="planetes_communication/communication.php"><img class="Communication scale-up-hor-left" src="images/com.png"></a>
         <img class="planete1" id="rougeLeft" src="images/planète1.png"></a>
         <img class="planete2" id="orangeBig" src="images/planète2cut.png">
-        <a href="planetes_communication/communication.html"><img class="planete3" id="roseLil" src="images/planète3.png"></a>
+        <a href="planetes_communication/communication.php"><img class="planete3" id="roseLil" src="images/planète3.png"></a>
         <img class="saturne" id="saturneUp" src="images/saturne.png">
 
 
-        <a class="retour" href="accueil.html#suite">Retour</a>
+        <a class="retour" href="accueil.php#suite">Retour</a>
 
 
 
@@ -48,6 +49,7 @@
         <h2>Listes des métiers présentés</h2>
         <table>
             <tr>
+                <!--- modifie ici aussi technique pas dev à faire sur les deux  autres page -->
                 <th>Développement</th>
             </tr>
             <tr>
@@ -61,15 +63,16 @@
                         réseaux</a></td>
             </tr>
             <tr>
-                <td class="definx">Web</td>
-                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
-                        Web</a></td>
-            </tr>
-            <tr>
                 <td></td>
                 <td class="definx"><a class="linke" href="planetes_technique/developpement.php#seconde_page">Developpeur
                         Web</a></td>
             </tr>
+            <tr>
+                <td class="definx">Web</td>
+                <td class="definx"><a class="linke" href="planetes_technique/developpement.php#premiere_page">Concepteur
+                        Web</a></td>
+            </tr>
+
         </table>
 
         <table>
@@ -95,6 +98,7 @@
                 <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef de
                         Projet Web</a></td>
             </tr>
+            <!-- A MODIFIER PAS LA BONNE PLACE ET DE NOM--------------------->
             <tr>
                 <td class="definx">Graphisme</td>
                 <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
@@ -109,6 +113,7 @@
     </div>
 
     <!--a prpopos de nous-->
+    <!-- A MODIFIER DEFINIT LES ROLES--------------------->
     <div id="definY" class="definition">
         <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
         <h2>A propos des membres du projet</h2>
@@ -204,6 +209,7 @@
         </div>
     </div>
     <!--quoi de neuf?-->
+    <!-- A MODIFIER S--------------------->
     <div id="definW" class="definition">
         <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
         <h2>Quoi de neuf sur le site?</h2>

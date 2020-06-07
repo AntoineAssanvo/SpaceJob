@@ -82,7 +82,7 @@
                 </tr>
                 <tr>
                     <td class="definx">Marketing</td>
-                    <td class="definx"><a class="linke" href="planetes_communication/marketing.html#premiere_page">Community Manager</a></td>
+                    <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community Manager</a></td>
                 </tr>
                 <tr>
                     <td></td>
