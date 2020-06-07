@@ -293,7 +293,7 @@ if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['ma
     $requete = $bdd->prepare("INSERT INTO  spacejob_form (contact_name, age, mail, profession, subject, message) VALUES (?, ?, ?, ?, ?, ?)");
     //j'execute la requete//
     $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
-    $requete = null;
+    // $requete = null;
     header('Location: ../confirmation.php?success=true');
     exit;
 }

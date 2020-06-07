@@ -3,36 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>developpement</title>
+    <title>Communication</title>
     <link rel="icon" type="image/png" href="images/icon.png" />
     <link rel="stylesheet" href="SJ2.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="accueil.php">
+    <link href="accueil.html">
 
 </head>
 
 <body>
     <div class="accueil">
-        <a href="planetes_technique/developpement.php">
+        <a href="planetes_communication/marketing.html">
             <div class="left"> </div>
         </a>
-        <a href="planetes_technique/reseaux.php">
-            <div class="Big"> </div>
-        </a>
-        <a href="planetes_technique/reseaux.php">
-            <div class="big2"> </div>
-        </a>
-        <img class="reseaux scale-up-hor-right " src="images/réseaux.png"></a>
-        <img class="planete1" id="vertLeft" src="images/planète4.png"></a>
-        <a href="planetes_technique/developpement.php"><img class="web scale-up-hor-left" src="images/web.png"></a>
-        <img class="planete2" id="bleuBig" src="images/planète8cut.png"></a>
-        <a href="#"><img class="dev scale-up-hor-right " src="images/développement.png"></a>
-        <img class="planete3" id="MoonLil" src="images/planète5.png">
-        <a href="#"><img class="saturne " id="terreUp" src="images/terre.png"></a>
+        <a href="planetes_communication/marketing.html"><img class="web scale-up-hor-left" src="images/market.png"></a>
+        <a href="planetes_communication/communication.html"><img class="Communication scale-up-hor-left" src="images/com.png"></a>
+        <a href="planetes_technique/artistique.html"><img class="graphisme scale-up-hor-left" src="images/graphisme.png"></a>
+        <img class="planete1" id="rougeLeft" src="images/planète1.png"></a>
+        <img class="planete2" id="orangeBig" src="images/planète2cut.png">
+        <a href="planetes_communication/communication.html"><img class="planete3" id="roseLil" src="images/planète3.png"></a>
+        <a href="planetes_technique/artistique.html"><img class="saturne" id="saturneUp" src="images/saturne.png"></a>
 
 
-        <a class="retour" href="accueil.php#suite">Retour</a>
+        <a class="retour" href="accueil.html#suite">Retour</a>
+
 
 
         <a href="#definX" id="metiers">LISTE<br>DES<br>METIERS</a>
@@ -43,13 +38,13 @@
         <a href="https://twitter.com/SpaceJobs1" id="insta">INSTAGRAM</a>
 
         <img class="cockpit" src="images/cockpit.png">
-        <img class="sun2 float" src="images/soleil1.png">
+        <img class="sun2 float" src="images/soleil2.png">
     </div>
 
 
 
     <!--tableau des métiers-->
-    <div id="definX" class="definition">
+    <div id="definX" class="definition scale-up-ver-center">
         <div class="divcroix"><a href="#titre" class="masquer"><img class="croix" src="images/croix.png"></a></div>
         <h2>Listes des métiers présentés</h2>
         <table>
@@ -58,14 +53,13 @@
             </tr>
             <tr>
                 <td class="definx">Réseaux</td>
-                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premier_page">Architecte
+                <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#premiere_page">Architecte
                         réseaux</a></td>
             </tr>
             <tr>
                 <td></td>
                 <td class="definx"><a class="linke" href="planetes_technique/reseaux.php#seconde_page">Administrateur
-                        réseaux</a>
-                </td>
+                        réseaux</a></td>
             </tr>
             <tr>
                 <td class="definx">Web</td>
@@ -85,7 +79,7 @@
             </tr>
             <tr>
                 <td class="definx">Marketing</td>
-                <td class="definx"><a class="linke" href="planetes_communication/marketing.phpl#premiere_page">Community
+                <td class="definx"><a class="linke" href="planetes_communication/marketing.php#premiere_page">Community
                         Manager</a></td>
             </tr>
             <tr>
@@ -95,17 +89,16 @@
             </tr>
             <tr>
                 <td class="definx">Communication</td>
-                <td class="definx"><a class="linke"
-                        href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#premiere_page">Consultant SEO</a></td>
             </tr>
             <tr>
                 <td></td>
-                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef
-                        de Projet Web</a></td>
+                <td class="definx"><a class="linke" href="planetes_communication/communication.php#seconde_page">Chef de
+                        Projet Web</a></td>
             </tr>
             <tr>
                 <td class="definx">Graphisme</td>
-                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premiere_page">Motion
+                <td class="definx"><a class="linke" href="planetes_technique/artistique.php#premier_page">Motion
                         Designer</a></td>
             </tr>
             <tr>
@@ -204,8 +197,7 @@
                 <input type="text" name='subject' placeholder=" le sujet de ton message est ?" class="input" />
 
 
-                <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !"
-                    class="msg"></textarea>
+                <textarea name="message" cols="50" rows="3" placeholder="Ecrire nous dans cette zone !" class="msg"></textarea>
                 <!-- je met le bouton envoie-->
                 <input type="submit" value="Envoyer">
 
@@ -269,7 +261,29 @@
             </tr>
         </table>
     </div>
+
+
+
     </div>
 </body>
 
 </html>
+<?php
+// je m'informe si il y'a une erreur
+ini_set('display_errors', 'on');
+//je me connecet depuis la base//
+include('./formulaire /lie/connect.php');
+
+
+// je met une condition//
+if (isset($_POST['contact_name']) and isset($_POST['age']) and  isset($_POST['mail']) and  isset($_POST['profession']) and  isset($_POST['subject']) and  isset($_POST['message'])) {
+
+    // je prepare la requete à envoyer //
+    $requete = $bdd->prepare("INSERT INTO  spacejob_form (contact_name, age, mail, profession, subject, message) VALUES (?, ?, ?, ?, ?, ?)");
+    //j'execute la requete//
+    $requete->execute(array($_POST['contact_name'], $_POST['age'], $_POST['mail'], $_POST['profession'], $_POST['subject'], $_POST['message']));
+    // $requete = null;
+    header('Location: ../confirmation.php?success=true');
+    exit;
+}
+?>
